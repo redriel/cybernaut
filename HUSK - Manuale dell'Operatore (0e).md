@@ -504,3 +504,30 @@ Lo stress invece si resetta ogni giorno.
 ## Percezione
 
 Ciò che viene percepito passivamente dai giocatori è pari al livello di lucidità dei singoli personaggi.
+
+
+
+## Note
+
+Il reset dello stress 3 (a cui va dato un nome) non porta il livello di stress a 2 ma a 1.
+
+L'utilizzo consecutivo di una abilità (dopo il primo utilizzo 'gratis') si chiama overload.
+
+Il primo overload causa una crisi. Il secondo causa una crisi con malus -1 a Lucidità, e così via (-2, -3).
+
+C'è un cap di livello per i gradi massimi. Livello 1 max 2, livello 2 max 3...livello 5 max 6.
+
+Ingegno va ripensato come attributo.
+
+Trovata la soluzione. ingegno si occupa solo dei gradi nelle capacità. quando sali di livello (incluso liv 1) ottieni tanti gradi quato il tuo livello di ingegno. Li spalmi come vuoi ma non eccedi il cap max. Destrezza e Vigore simili, senza spendere punti e senza gradi iniziali! Se hai competenza in un'arma data dalla tua classe, allora in quell'arma (che ha scaling) avrai tanti gradi quanto il tuo livello di vigore/dex, rispettando il cap MAX!
+
+Ripensare ai gusci.
+
+Quando si leveluppa, si sblocca un grado extra come cap in tutto e si ottengono nuovi gradi da ingegno. Inoltre si aumenta la vita del livello di classe. Trovare un modo di potenziare le abilità...magari permettendo più utilizzi senza stress? O aggiungendo dei benefici di classe? ci pensiamo.
+
+Aggiungere soglia per nemici.
+
+Spiegare il combattimento come monodimensionale e lineare.
+
+Ferito non toglie 1 azione tra attacco e abilità ma 1 a scelta del giocatore. (Ma forse non è abbastanza, forse bisogna giocare sullo stress o roba del genere).
+

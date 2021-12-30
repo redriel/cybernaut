@@ -529,5 +529,73 @@ Aggiungere soglia per nemici.
 
 Spiegare il combattimento come monodimensionale e lineare.
 
-Ferito non toglie 1 azione tra attacco e abilità ma 1 a scelta del giocatore. (Ma forse non è abbastanza, forse bisogna giocare sullo stress o roba del genere).
+Ferito non toglie 1 azione tra attacco e abilità ma 1 a scelta del giocatore. (Ma forse non è abbastanza, forse bisogna giocare sullo stress o roba del genere). Probabilmente in ferito non si sceglie il dado migliore, ma il secondo dado migliore.
 
+Tracciante fa colpire solo quelli in copertura.
+
+Penetrante sorpassa lo scudo
+
+I soldi servono per levelappare. In pratica sono dei potenziamenti genetici /software update per sbloccare il cap.
+
+Il livello 1 dà accesso a 1 abilità di razza, 1 abilità core e 2 abilità a scelta. Salendo di livello l'abilità core si potenzia e si sbloccano nuove abilità di classe, che sono equippabili e swappabili (pagando un modulatore di memoria genetica). Le abilità di razza anche sono swappabili nello stesso modo.
+
+i gusci danno max destrezza sulla difesa.
+
+i soldi per abbandonare il pianeta (goal di un pg) sono 100k.
+
+la cura del teurgo è una reazione che cura quando un pg è ferito.
+
+La cura umana è una reazione (scienza medica) che dice che se ci si cura con un consumabile e non si supera la soglia, invece lo si fa.
+
+rivedere abilità dell'agente
+
+a shogai si puo scommettere denaro
+
+a shogai ce una banca
+
+ci sono dei psicofarmaci che fanno 1d10 di cura, se esce 10 cura + ferita, 1 2 di stress, e in mezzo i pari curano e i dispari danneggiano.
+
+
+
+Ordine da seguire:
+
+Introduzione
+
+ - introduzione flavour al gioco
+ - brevissimo elenco integrato di parole chiave
+ - elenco di come chiamare i personaggi
+
+
+
+Parametri e caratteristiche
+
+Gli attributi si chiamano ora parametri. Spiegare che i parametri sono i descrittori essenziali e che le Caratteristiche sono dei valori derivati. Spiegare che le caratteristiche possono essere influenzate dall'equip (introdurre nuova caratteristica: potenziamento genetico / versione software)
+
+Specie
+
+Classi
+
+Capacità
+
+EQUIPAGGIAMENTO
+
+- GAMEPLAY
+
+  - COMBATTIMENTO
+    - L'ARRAY
+    - LO STACK
+    - LE AZIONI POSSIBILI
+    - L'OVERLOAD
+  - ESPLORAZIONE
+  - RIPOSO (TUTTA LA PARTE DI SHO-GAI E LEVEL UP)
+
+  SHOGAI E FLAVOUR
+
+NEL MANUALE DELL'ADMIN METTERE 
+
+- INTRODUZIONE
+- GAMEMASTERING
+- GESTIONE NEMICI
+- GLI UPGRADE
+- AMBIENTAZIONE SHOGAI
+- DILEMMA BOOLEANO (UNA MINI CAMPAGNA)

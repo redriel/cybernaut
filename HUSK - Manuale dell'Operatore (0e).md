@@ -1,68 +1,132 @@
 # HUSK RPG - Manuale di Gioco
 
-**HUSK** è un gioco di ruolo da tavolo ambientato su un pianeta senza nome, chiamato semplicemente *Pianeta*. In questo mondo coperto interamente da deserti, canyon e lande ghiacciate, cacciatori di tecnologia chiamati **Operatori** esplorano le rovine di antichi laboratori e città perdute nella speranza di trovare hardware di epoche passate da rivendere nella metropoli di Sho-Gai.
+**HUSK** è un gioco di ruolo da tavolo ambientato su un pianeta senza nome, chiamato semplicemente **Pianeta**, un mondo ostile coperto da deserti, canyon e lande ghiacciate. Cacciatori di tecnologia chiamati **Operatori** esplorano le rovine di antichi laboratori e città perdute alla ricerca di preziosi hardware da rivendere nella metropoli di Sho-Gai.
 
-In HUSK ci sono poche regole da imparare, in poco tempo sarai in grado di creare il tuo Operatore ed iniziare ad esplorare le lande inospitali del Pianeta.
+In HUSK ci sono poche regole da imparare, in breve tempo sarai in grado di creare il tuo Operatore ed iniziare ad esplorare le lande inospitali del Pianeta.
 
-In questa guida troverai tutte le regole del gioco e le opzioni che hai a disposizione per personalizzare il tuo Operatore: specie, classi, competenze ed equipaggiamento.
+Nella prima parte di questa guida troverai tutte le regole per iniziare a giocare come Operatore. La seconda parte della guida è riservata agli **Admin**, ossia coloro che amministrano il gioco.
 
-Oltre ai giocatori è indispensabile la presenza di un coordinatore che gestisca l'avventura. La persona che ricopre questo ruolo è chiamata Admin. L'Admin si occupa di descrivere l'ambiente, gestire i nemici e le missioni che gli Operatori dovranno affrontare.
-
-Prima di iniziare, sappi che HUSK utilizza principalmente il dado a 10 facce (d10), e in alcuni casi anche il dado a 4 facce (d4), 6 facce (d6) e 8 facce (d8). Tutte le informazioni del tuo Operatore sono tracciate su un foglio chiamato LOG.
-
-## Creare un Operatore
-
-Quando giochi ad HUSK, devi creare un alter ego chiamato Operatore. Puoi scegliere liberamente il background del tuo avatar, le sue esperienze passate, la sua personalità ed il suo aspetto. Utilizzi invece le regole di HUSK per stabilire che cosa il tuo Operatore sa fare e quali azioni può compiere durante il gioco.
-
-Per creare un Operatore, devi seguire questi step:
-
- 	1. Scegliere un nome e se vuoi, fornire una descrizione del tuo Operatore
- 	2. Stabilire gli Attributi
- 	3. Scegliere una Specie
- 	4. Scegliere una Classe
- 	5. Determinare le Capacità
- 	6. Scegliere l'Equipaggiamento
-
-I capitoli successivi illustreranno nel dettaglio le opzioni che hai a disposizione e ti guideranno nella creazione del tuo Operatore.
+Per giocare ad HUSK ti occorreranno un dado a 10 facce (d10), un dado a 8 facce (d8), un dado a 6 facce (d6) e un dado a 4 facce (d4).  Avrai bisogno anche di un foglio, chiamato **LOG**, in cui riportate le informazioni del tuo Operatore, e di una plancia di gioco, chiamata **STACK**, sulla quale si svolgeranno i combattimenti (*puoi costruirla tu stesso!*).
 
 
 
-## Attributi
+## Le basi del Gioco
 
-Gli attributi rappresentano i parametri fisici e mentali del tuo Operatore. Gli Attributi sono quattro: **vigore**, **destrezza**, **lucidità** ed **ingegno**. Ognuno di essi influenza altre caratteristiche del tuo Operatore e concede particolari bonus. Quando crei un Operatore, puoi stabilire i suoi Attributi in due modi:
+HUSK è un gioco cooperativo. I giocatori, nei panni di Operatori, collaborano per superare missioni mortali e combattimenti frenetici. A guidare gli Operatori c'è l'Admin, la persona che si occupa di gestire il gioco in tutti i suoi aspetti. L'Admin descrive l'ambiente circostante, interpreta i personaggi che popolano il mondo di gioco e gestisce i nemici in combattimento.
 
-- **configurazione fissa**: assegna i valori 5, 4, 3 e 2 agli Attributi nel modo che preferisci.
-- **configurazione casuale**: lancia 1d6 per ogni Attributo e assegnagni il risultato del dado.
+Prima di iniziare a giocare è fondamentale familiarizzare con alcune parole chiave utilizzati in HUSK. Conoscere questi termini è inoltre utile per avere una panoramica generale sulle meccaniche di gioco, sia che tu voglia giocare come Operatore che come Admin.
 
-Di seguito vengono illustrati nel dettaglio gli Attributi, specificando per ognuno di essi quali sono le caratteristiche che vengono influenzate.
+### Parole chiave
 
-### Vigore
-
-Il Vigore rappresenta quanto il tuo personaggio è resistente fisicamente. Il Vigore influenza la salute totale e la capacità di resistere alle Ferite. A volte un certo punteggio di Vigore è richiesto per utilizzare alcune armi e gusci. 
-
-### Destrezza
-
-La Destrezza rappresenta la capacità del tuo personaggio di schivare attacchi ed essere pronto a combattere. A volte un certo punteggio di Destrezza è richiesto per utilizzare alcune armi.
-
-### Lucidità
-
-La Lucidità rappresenta la fermezza mentale del tuo personaggio. La Lucidità aiuta a mitigare gli effetti nocivi dello Stress ed influenza la capacità di osservare attentamente l'ambiente circostante.
-
-### Ingnegno
-
-L'ingegno rappresenta l'insieme delle conoscenze dell'Operatore e l'abilità nel risolvere i problemi. Il valore di Ingegno rappresenta il massimo Grado che le proprie Capacità possono raggiungere. Inoltre, alla creazione dell'Operatore si ottiene un numero di Gradi extra da assegnare alle Capacità pari al proprio valore di Ingegno.
+Di seguito vengono elecati dei termini che riassumono i concetti base del gioco.
 
 
 
-## Caratteristiche
+#### Operatore
 
-Le Caratteristiche sono parametri derivati dagli Attributi, dalla Specie e dalla Classe. Le Caratteristiche rappresentano lo stato di salute del tuo Operatore, la sua reattività in combattimento e lo stato mentale. Le Caratteristiche sono le seguenti:
+Il personaggio di un giocatore. Ogni Operatore apprende delle abilità da usare in combattimento ed è completamente personalizzabile nell'aspetto e nella personalità.
 
-- **Salute**: rappresenta le funzioni vitali del tuo Operatore. 
-- **Stress**: rappresenta la condizione mentale del tuo Operatore.
-- **Reattività**: indica quanto velocemente puoi intervenire in battaglia. 
-- **Difesa**: indica quanto è difficile colpire il tuo Operatore.
-- **Scudo**: indica quanti danni puoi mitigare.
+#### Admin
+
+La persona che conduce il gioco. Un Admin deve avere una buona conoscenza delle regole e delle meccaniche
+
+#### Parametro
+Valore numerico che descrive una caratteristica fisica o mentale di un Operatore.
+
+#### Classe
+La professione di un Operatore. Ogni classe è specializzata in diversi ambiti e dispone di Abilità uniche da utilizzare in Combattimento.
+
+#### Abilità
+Azione speciale che un Operatore può compiere in Combattimento.
+
+#### Capacità
+Azione speciale che un Operatore può compiere durante l'Esplorazione.
+
+#### Combattimento
+Fase di gioco in cui gli Operatori ingaggiano uno o più nemici in uno scontro.
+
+#### Esplorazione
+Fase di gioco in cui gli Operatori interagiscono con l'ambiente circostante e con altri personaggi non ostili.
+
+#### Beneficio
+Bonus passivo sempre a disposizione dell'Operatore.
+
+#### Competenza
+Idoneità di un Operatore nell'utilizzare un particolare Equipaggiamento.
+
+#### Grado
+Valore che indica quanto un Operatore è esperto nell'utilizzo di Equipaggiamento o di una Capacità. Più alto è il Grado, più alta è la probabilità che l'azione venga eseguita con successo.
+
+#### Miglior lancio
+Quando viene lanciato più di un dado per determinare l'esito di una azione, viene scelto il risultato più alto.
+
+#### Overload
+Possibilità di utilizzare più Abilità di quelle consentite in un dato lasso di tempo. Utilizzare una Abilità in Overload comporta tuttavia dei malus.
+
+
+
+### Creare un Operatore
+
+I giocatori creano un alter ego chiamato Operatore. Quando crei un Operatore puoi scegliere liberamente il background che lo caratterizza, le sue esperienze passate, la sua personalità ed il suo aspetto. Utilizzi invece le regole di HUSK per stabilire che cosa il tuo Operatore è in grado di fare durante il gioco.
+
+Per creare un Operatore, segui questi passaggi:
+
+1. Stabilire i Parametri
+2. Scegliere una Specie
+3. Scegliere una Classe
+4. Determinare le Capacità
+5. Scegliere l'Equipaggiamento
+6. Scrivere le informazioni aggiuntive
+
+I capitoli successivi illustrano nel dettaglio le opzioni a disposizione per la creazione di un Operatore.
+
+
+
+## Parametri
+
+Gli Parametri rappresentano i Parametri fisici e mentali del tuo Operatore. Si suddividono in Parametri Base e Parametri Avanzati. I Parametri Base sono i primi ad essere determinati, mentre i Parametri Avanzati sono calcolati sulla base dei primi e sull'Equipaggiamento utilizzato.
+
+### Parametri Base
+
+I Parametri Base sono quattro: **vigore**, **destrezza**, **lucidità** ed **ingegno**. Ognuno di essi influenza altre caratteristiche del tuo Operatore e concede particolari bonus. Quando crei un Operatore, puoi stabilire i suoi Parametri Base in due modi:
+
+- **configurazione fissa**: assegna i valori 5, 4, 3 e 2 ai Parametri Base nel modo che preferisci.
+- **configurazione casuale**: lancia un dado a 6 facce per ogni Parametro e assegna il risultato al Parametro che preferisci.
+
+#### Vigore
+
+Il Vigore rappresenta quanto un Operatore è resistente fisicamente. Il Vigore influenza la Salute e l'abilità nell'utilizzo di alcune categorie di armi.
+
+#### Destrezza
+
+La Destrezza rappresenta quanto un Operatore è abile nello schivare attacchi nemici e nel reagire velocemente in Combattimneto. La Destrezza influenza la Reattività e l'abilità nell'utilizzo di alcune categorie di armi.
+
+#### Lucidità
+
+La Lucidità rappresenta la fermezza mentale di un Operatore. La Lucidità influenza la resistenza allo Stress e l'utilizzo delle Abilità in Overload.
+
+#### Ingnegno
+
+L'ingegno rappresenta l'acume mentale dell'Operatore. L'Ingegno influenza il numero delle Capacità conosciute e la resistenza ai tentativi di hacking mentale.
+
+
+
+### Parametri Avanzati
+
+I Parametri Avanzati sono calcolati sulla base dei Parametri Base e sull'Equipaggiamento utilizzato. Essi sono: **Salute**, **Stress**, **Reattività**, **Difesa**, **Barriera** e **noGEN**.
+
+#### Salute
+rappresenta le funzioni vitali del tuo Operatore. 
+#### Stress
+rappresenta la condizione mentale del tuo Operatore.
+#### Reattività
+indica quanto velocemente puoi intervenire in battaglia. 
+#### Difesa
+indica quanto è difficile colpire il tuo Operatore.
+#### Scudo
+indica quanti danni puoi mitigare.
+#### noGEN
+test
 
 ## Specie
 
@@ -244,7 +308,7 @@ Gli Sheller possono indossare i Gusci Leggeri.
 ### Abilità
 
 - **SHELL** (e): lancia un Comando tra i seguenti (puoi usare un solo Comando per Combattimento):
-  - **GREP**: riveli Attributi, Salute, Difesa, Scudo e Pericolosità di un nemico che puoi vedere.
+  - **GREP**: riveli Parametri, Salute, Difesa, Scudo e Pericolosità di un nemico che puoi vedere.
   - **CHMOD**: lancia 1d6; se superi l'Ingegno nemico, lo controlli fino al tuo prossimo turno (il tuo turno finisce immediatamente ed inizia quello del nemico controllato).
   - **ECHO**: invia un messaggio ad un qualsiasi sistema o essere vivente.
   - **SLEEP**: manda in stasi un nemico per 1 turno (non può eseguire azioni nè muoversi).
@@ -555,6 +619,12 @@ a shogai ce una banca
 
 ci sono dei psicofarmaci che fanno 1d10 di cura, se esce 10 cura + ferita, 1 2 di stress, e in mezzo i pari curano e i dispari danneggiano.
 
+metacura: cura riavvolgitempo del teurgo
+
+ingegno resistenza hacking mentale
+
+sudo: usa sia sudo che cmd per ignorare lancio su ingegno
+
 
 
 Ordine da seguire:
@@ -563,13 +633,13 @@ Introduzione
 
  - introduzione flavour al gioco
  - brevissimo elenco integrato di parole chiave
- - elenco di come chiamare i personaggi
+ - elenco di come creare i personaggi
 
 
 
 Parametri e caratteristiche
 
-Gli attributi si chiamano ora parametri. Spiegare che i parametri sono i descrittori essenziali e che le Caratteristiche sono dei valori derivati. Spiegare che le caratteristiche possono essere influenzate dall'equip (introdurre nuova caratteristica: potenziamento genetico / versione software)
+Gli Parametri si chiamano ora Parametri. Spiegare che i Parametri sono i descrittori essenziali e che le Caratteristiche sono dei valori derivati. Spiegare che le caratteristiche possono essere influenzate dall'equip (introdurre nuova caratteristica: potenziamento genetico / versione software)
 
 Specie
 

@@ -8,7 +8,7 @@ Nella prima parte di questa guida troverai tutte le regole per iniziare a giocar
 
 Per giocare ad HUSK ti occorreranno un dado a 10 facce (d10), un dado a 8 facce (d8), un dado a 6 facce (d6) e un dado a 4 facce (d4).  Avrai bisogno anche di un foglio, chiamato **LOG**, in cui riportate le informazioni del tuo Operatore, e di una plancia di gioco, chiamata **STACK**, sulla quale si svolgeranno i combattimenti (*puoi costruirla tu stesso!*).
 
-
+---
 
 ## Le basi del Gioco
 
@@ -16,11 +16,11 @@ HUSK è un gioco cooperativo. I giocatori, nei panni di Operatori, collaborano p
 
 Prima di iniziare a giocare è fondamentale familiarizzare con alcune parole chiave utilizzati in HUSK. Conoscere questi termini è inoltre utile per avere una panoramica generale sulle meccaniche di gioco, sia che tu voglia giocare come Operatore che come Admin.
 
+
+
 ### Parole chiave
 
 Di seguito vengono elecati dei termini che riassumono i concetti base del gioco.
-
-
 
 #### Operatore
 
@@ -71,16 +71,16 @@ I giocatori creano un alter ego chiamato Operatore. Quando crei un Operatore puo
 
 Per creare un Operatore, segui questi passaggi:
 
-1. Stabilire i Parametri
-2. Scegliere una Specie
-3. Scegliere una Classe
-4. Determinare le Capacità
-5. Scegliere l'Equipaggiamento
-6. Scrivere le informazioni aggiuntive
+1. Calcola i Parametri Base
+2. Scegli una Specie
+3. Scegli una Classe
+4. Scegli le Capacità
+5. Scegli l'Equipaggiamento
+6. Calcola i Parametri Avanzati
 
 I capitoli successivi illustrano nel dettaglio le opzioni a disposizione per la creazione di un Operatore.
 
-
+---
 
 ## Parametri
 
@@ -113,75 +113,102 @@ L'ingegno rappresenta l'acume mentale dell'Operatore. L'Ingegno influenza il num
 
 ### Parametri Avanzati
 
-I Parametri Avanzati sono calcolati sulla base dei Parametri Base e sull'Equipaggiamento utilizzato. Essi sono: **Salute**, **Stress**, **Reattività**, **Difesa**, **Barriera** e **noGEN**.
+I Parametri Avanzati sono calcolati sulla base dei Parametri Base e sull'Equipaggiamento utilizzato. Essi sono: **Salute**, **Stress**, **Reattività**, **Difesa**, **Barriera** e **ParaGEN**.
 
 #### Salute
-rappresenta le funzioni vitali del tuo Operatore. 
+La Salute rappresenta l'energia vitale di un Operatore. Quando la Salute scende a 0, l'Operatore muore. 
+
+La Salute è influenzata dal Vigore e dalla Classe.
+
 #### Stress
-rappresenta la condizione mentale del tuo Operatore.
+Lo Stress rappresenta la condizione mentale dell'Operatore. Il valore iniziale dello Stress è 0, ma può incrementare di 1 ogni volta che l'Operatore è vittima di psicosi o danni mentali. Quando lo Stress raggiunge il valore di 3, l'Operatore subisce una Crisi. 
+
 #### Reattività
-indica quanto velocemente puoi intervenire in battaglia. 
+La Reattività indica quanto velocemente un Operatore interviene in Combattimento. La Reattività a sua volta contribuisce alla Difesa ed è influenzata dalla Destrezza.
 #### Difesa
-indica quanto è difficile colpire il tuo Operatore.
+La Difesa indica quanto è difficile colpire un Operatore con un attacco. La Difesa è influenzata dall'Equipaggiamento e dalla Reattività.
 #### Scudo
-indica quanti danni puoi mitigare.
-#### noGEN
-test
+Lo Scudo indica quanti danni può mitigare un Operatore ogni volta che viene colpito. Lo Scudo è influenzato unicamente dall'Equipaggiamento.
+#### ParaGEN
+Il ParaGEN (*parametro genetico*) indica quanto è stato potenziato il genoma di un Operatore. Ogni Operatore inizia con un ParaGEN pari a 1 e può arrivare ad un massimo di 5. Ogni volta che il ParaGEN aumenta, l'Operatore ottiene bonus permanenti.
+
+*N.B.* *Se l'Operatore è un Sync, il ParaGEN è sostituito dalla **Versione Software***.
+
+---
 
 ## Specie
 
-Quando crei il tuo Operatore, devi selezionare la Specie a cui appartiene. Ogni Specie è definita da **Benefici** ed **Abilità**. I Benefici sono bonus passivi, mentre le Abilità sono azioni che il tuo Operatore è in grado di eseguire.
+Sul Pianeta vivono milioni di abitanti, appartenenti alle specie più strane e assurde del Sistema. Quando crei un Operatore, hai a disposizione quattro Specie tra cui scegliere. Ogni Specie è definita da **Benefici** e **Abilità**. I Benefici sono bonus passivi, mentre le Abilità sono azioni che l'Operatore è in grado di eseguire.
 
-Quando selezioni una Specie, ne ottieni tutti i Benefici; devi invece selezionare una delle 3 Abilità che ogni Specie ti offre.
+Quando selezioni una Specie ottieni 2 Benefici; ottieni 1 Abilità a scelta tra le 2 disponibili. 
 
-Di seguito vengono illustrate nel dettaglio tutte le Specie.
+
 
 ### Umano
 
-Gli umani sono giunti sul Pianeta di recente. Come sempre, la loro grande adattabilità ha reso possibileuna rapida diffusione. Quando giochi con un Umano, godi dei seguenti vantaggi:
+Gli umani sono giunti sul Pianeta di recente. Come sempre, la loro grande adattabilità ha reso possibileuna rapida diffusione.
 
-- Benefici:
+| Beneficio   | Effetto                           |
+| ----------- | --------------------------------- |
+| *Versatile* | Ottieni 1 Competenza a tua scelta |
+| *Curioso*   | Ottieni 2 Gradi extra             |
 
-  - versatile: puoi sostituire l'Abilità di Specie con 1 Abilità di Classe a tua scelta.
-  - curioso: ottieni 2 Gradi extra in una Capacità che non conosci.
+| Abilità                        | Effetto                                                      |
+| ------------------------------ | ------------------------------------------------------------ |
+| *Ispirare*                     | Rimuovi 2 punti Stress da un alleato che si trova in Mischia o da te stesso |
+| *Istinto di sopravvivenza* [⟲] | Se stai per subire danno, dimezzalo (arrotondato per eccesso) |
 
-- Abilità:
-
-  - Ispirare: i tuoi alleati entro 1 Distanza ottengono +1 Lancio fino al tuo prossimo turno.
-  - Medicina: cura un alleato nella stessa Distanza di 1d6. Se eccedi il limite di Soglia, rimuovi 1 Ferita.
-  - Istinto di sopravvivenza (r): dimezza il prossimo danno (arrotondato per difetto).
 
 
 ### Larva
 
-Le larve sono grossi insetti umanoidi con la testa che assomiglia a quella di una mosca. Vivono sul Pianeta da moltissimo tempo; sono avide, astute e si sfregano spesso le zampe. Quando giochi con una Larva, godi dei seguenti vantaggi:
+Le Larve sono grossi insetti umanoidi con la testa che assomiglia a quella di una mosca. Vivono sul Pianeta da moltissimo tempo; sono avide, astute e si sfregano spesso le zampe. Quando giochi con una Larva, godi dei seguenti vantaggi:
 
-- Benefici:
-  - occhi da insetto: puoi guardare in tutte le direzioni contemporaneamente.
-  - proboscide: puoi utilizzare la proboscide come arma (2G, M, 1d4).
-- Abilità:
-  - Balzo: puoi spostarti fino a 3 Distanze.
-  - Succhiavita (r): se infliggi danno con una protolama o con la proboscide, recupera lo stesso ammontare di Salute (entro la Soglia).    
-  - Fiutaodori (e): scopri la presenza e posizione di esseri viventi entro 3 Distanze.
+| Beneficio       | Effetto                                                      |
+| --------------- | ------------------------------------------------------------ |
+| *Entomosguardo* | Puoi colpire nemici in copertura che si trovano entro il Corto Raggio |
+| *Proboscide*    | Puoi utilizzare la proboscide come arma [Mischia/1d4/Vigore] |
+
+| Abilità            | Effetto                                                      |
+| ------------------ | ------------------------------------------------------------ |
+| *Saliva Corrosiva* | Neutralizza lo Scudo di un nemico in Mischia per suoi prossimi due Loop |
+| *Succhiavita* [⟲]  | Se stai per infliggere danno ad una creatura organica con una protolama o con la proboscide, curati dello stesso ammontare di Salute entro la Soglia |
+
+
 
 ### Kintu
 
-I Kintu sono molto simili agli umani, ma hanno capelli e occhi bianchissimi. Sono sinuosi, abili con le parole ed estremamente agili. Quando giochi con un Kintu, godi dei seguenti vantaggi:
+I Kintu sono molto simili agli umani, ma hanno capelli e occhi bianchissimi. Sono sinuosi, abilissimi con le parole ed estremamente agili.
 
-- Benefici:
-  - sensi all'erta: conosci in anticipo la Pericolosità di un nemico.
-  - eleganza felina: se indossi un Guscio leggero, aumenta la tua Reattività di 1.
-- Abilità:
-  - Colpo alla gola: esegui un attacco con un'arma da mischia che ignora lo Scudo.   
-  - Sgattaiolare: puoi spostarti fino a 2 Distanze senza esser notato.
-  - Schivata (r): eviti il prossimo attacco.
+| Beneficio         | Effetto                                                      |
+| ----------------- | ------------------------------------------------------------ |
+| Sensi all'Erta    | Conosci in anticipo la Pericolosità di un nemico             |
+| *Eleganza Felina* | Se indossi un Guscio leggero, aumenta la tua Reattività di 1 |
+
+| Abilità         | Effetto                                                      |
+| --------------- | ------------------------------------------------------------ |
+| *Parlata Jonku* | Scegli un nemico che si trova entro il Corto Raggio e lancia 1d6. Se il risultato è pari o superiore al suo Ingegno, diventa tuo alleato fino al suo prossimo Loop |
+| *Schivata* [⟲]  | Se stai per essere colpito, evita l'attacco                  |
+
+
 
 ### Sync
 
-I Sync sono automi di origine sconosciuta. Sono guidati dalla fredda logica ed agiscono per fini misteriosi. Quando giochi con un Sync, godi dei seguenti vantaggi:
+I Sync sono automi di origine sconosciuta. Sono guidati dalla fredda logica ed agiscono per fini misteriosi.
 
-- Benefici:
-  - CPU: il Grado massimo delle tue Capacità aumenta di 1.
+| Beneficio              | Effetto |
+| ---------------------- | ------- |
+| *Overclock*            |         |
+| *Stoicismo Inorganico* |         |
+
+| Abilità      | Effetto                                                      |
+| ------------ | ------------------------------------------------------------ |
+|              |                                                              |
+| *Reboot* [⟲] | Se stai per subire un danno mortale, ignora quel danno. Non puoi agire fino al tuo prossimo Loop |
+
+Benefici:
+
+- - CPU: il Grado massimo delle tue Capacità aumenta di 1.
   - impassibile: ottieni +1 Lucidità quando lanci per Crisi.
 - Abilità:
   - Cyber-occhio: scopri il valore di Salute, Difesa e Scudo di una creatura che riesci a vedere.

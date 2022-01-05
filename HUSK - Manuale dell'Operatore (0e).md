@@ -1,4 +1,4 @@
-# HUSK RPG - Manuale di Gioco
+## HUSK RPG - Manuale di Gioco
 
 **HUSK** è un gioco di ruolo da tavolo ambientato su un pianeta senza nome, chiamato semplicemente **Pianeta**, un mondo ostile coperto da deserti, canyon e lande ghiacciate. Cacciatori di tecnologia chiamati **Operatori** esplorano le rovine di antichi laboratori e città perdute alla ricerca di preziosi hardware da rivendere nella metropoli di Sho-Gai.
 
@@ -196,182 +196,166 @@ I Kintu sono molto simili agli umani, ma hanno capelli e occhi bianchissimi. Son
 
 I Sync sono automi di origine sconosciuta. Sono guidati dalla fredda logica ed agiscono per fini misteriosi.
 
-| Beneficio              | Effetto |
-| ---------------------- | ------- |
-| *Overclock*            |         |
-| *Stoicismo Inorganico* |         |
+| Beneficio           | Effetto                                                    |
+| ------------------- | ---------------------------------------------------------- |
+| *Overclock*         | Hai competenza in tutte le Capacità                        |
+| *Stoicismo Binario* | Puoi rilanciare il d6 una volta quando subisci una Catarsi |
 
-| Abilità      | Effetto                                                      |
-| ------------ | ------------------------------------------------------------ |
-|              |                                                              |
-| *Reboot* [⟲] | Se stai per subire un danno mortale, ignora quel danno. Non puoi agire fino al tuo prossimo Loop |
+| Abilità               | Effetto                                                      |
+| --------------------- | ------------------------------------------------------------ |
+| *Pugno Automatizzato* | Scegli un nemico in distanza di Mischia. Infliggi 1d8 danni  |
+| *Reboot* [⟲]          | Se stai per subire un danno mortale, ignora quel danno. Non puoi agire fino al tuo prossimo Loop |
 
-Benefici:
-
-- - CPU: il Grado massimo delle tue Capacità aumenta di 1.
-  - impassibile: ottieni +1 Lucidità quando lanci per Crisi.
-- Abilità:
-  - Cyber-occhio: scopri il valore di Salute, Difesa e Scudo di una creatura che riesci a vedere.
-  - Reboot: ti iberni per 4 ore. Recuperi tutta la Salute e guarisci 1 Ferita.    
-  - Pugno d'Acciaio: scagli un pugno devastante (3G, M, 1d8).
-
-
+---
 
 ## Classi
 
-La Classe è la specializzazione del tuo Operatore. Ogni Classe conferisce una serie di Abilità e Competenze uniche. Le Abilità sono azioni che il tuo Operatore può eseguire, mentre le Competenze rappresentano la dimestichezza con le varie classi di armi.
+La Classe è la specializzazione di un Operatore. Ogni Classe conferisce una serie di Benefici, Competenze e Abilità uniche. 
 
-Quando selezioni una Classe ottieni anche un valore di Salute Iniziale, che sommato al valore del tuo Vigore stabilisce la Salute del tuo personaggio. Di seguito sono elencate nel dettaglio le varie Classi.
+Quando un Operatore seleziona una Classe ottiene un valore di Salute Iniziale, che sommato al valore del Vigore stabilisce la Salute del personaggio. 
 
-
-
-## Agente
-
-Gli Agenti sono persone d'azione, in grado di gettarsi in mezzo alla mischia, proteggere gli alleati e infliggere pesanti danni ai nemici. Sono in grado di utilizzare tutte le armi ed armature, il che li rende estremamente versatili e capaci di fare la differenza in ogni situazione.
-
-### Salute Iniziale 
-
-Gli Agenti hanno un valore di Salute Iniziale pari a 8.
-
-### Competenze
-
-Gli Agenti ottengono 1 Grado nelle protolame K1 e K2.
-
-Gli Agenti ottengono 2 Gradi in tutti i vettori.
-
-Gli Agenti possono indossare tutti i Gusci.
-
-### Abilità
-
-- **Colpo Sicuro**: il tuo prossimo Attacco va a segno.
-- **Minaccia**: i nemici entro 2 Distanze attaccano te fino all'inizio del tuo prossimo turno.
-- **Juggernaut**: ignora Danni e Ferite fino al tuo prossimo turno.
-- **Rappresaglia** (r): dopo aver subito danni da un nemico, esegui un attacco in risposta (se la Distanza lo permette). 
-
-### Capacità
-
-Gli Operatori ottengono 1 Grado in Atletica.
+Ogni Classe è caratterizzata da una **Abilità Chiave** (contrassegnata in grassetto) e da altre 3 Abilità. Quando selezioni una Classe, ottieni automaticamente l'Abilità Chiave e 2 Abilità a scelta tra le 3 disponibili.
 
 
 
-## Ghonin
+### Agente
+
+Gli Agenti sono persone d'azione in grado di gettarsi in mezzo alla mischia, proteggere gli alleati e infliggere gravi danni ai nemici. Sono esperti tiratori e posso indossare tutte le armature, il che li rende estremamente versatili e capaci di fare la differenza in ogni situazione.
+
+#### Benefici
+
+| Beneficio          | Effetto                                                      |
+| ------------------ | ------------------------------------------------------------ |
+| Salute dell'Agente | A paraGEN 1 inizi con un valore di Salute pari a 8. Ogni volta che il tuo paraGEN aumenta, la tua Salute incrementa di 1d8 |
+| Cecchino           | Quando mandi a segno un Colpo Critico con un Vettore, aumenti il danno di 1 |
+
+#### Competenze
+
+| Categorie | Competenze                               |
+| --------- | ---------------------------------------- |
+| Protoarmi | K1, K2                                   |
+| Vettori   | Leggeri, Automatici, Assalto, Precisione |
+| Gusci     | Leggeri, Medi, Pesanti                   |
+| Capacità  | Artiglieria, Atletica                    |
+
+#### Abilità
+
+| Abilità              | Effetto                                                      |
+| -------------------- | ------------------------------------------------------------ |
+| ***Juggernaut***     | Ottieni +4 Scudo fino al tuo prossimo Loop                   |
+| *Colpo Accurato* [⟲] | Se stai per attaccare con un Vettore, il colpo va automaticamente a segno |
+| *Bastione*           | I tuoi alleati possono usarti come Copertura fino al tuo prossimo Loop |
+| *Rappresaglia* [⟲]   | Se hai subito danni da un nemico, esegui un attacco in risposta (puoi usare un Vettore) |
+
+
+
+### Ghonin
 
 I Ghonin sono artisti marziali, ladri esperti, abili con le protolame e soprattutto maestri di morte. A differenza degli Agenti, preferiscono approcciare gli scontri in maniera meno diretta, cercando i punti deboli dei nemici per finirli in un'unico colpo.
 
-### Salute Iniziale 
+#### Benefici
 
-I Ghonin hanno un valore di Salute Iniziale pari a 5.
+| Beneficio         | Effetto                                                      |
+| ----------------- | ------------------------------------------------------------ |
+| Salute del Ghonin | A paraGEN 1 inizi con un valore di Salute pari a 4. Ogni volta che il tuo paraGEN aumenta, la tua Salute incrementa di 1d4 |
+| temp              |                                                              |
 
-### Competenze
+#### Competenze
 
-I Ghonin ottengono 1 Grado nei vettori leggeri.
+| Categorie | Competenze                                     |
+| --------- | ---------------------------------------------- |
+| Protoarmi | K1, K2, K3                                     |
+| Vettori   | Leggeri                                        |
+| Gusci     | Leggeri                                        |
+| Capacità  | Furtività, Psicologia, Atletica e Manomissione |
 
-I Ghonin ottengono 2 Gradi in tutte le protolame.
+#### Abilità
 
-I Ghonin possono indossare i Gusci Leggeri.
+| Abilità            | Effetto                                                      |
+| ------------------ | ------------------------------------------------------------ |
+| ***Shindo***       | Utilizzi una Tecnica Shindo                                  |
+| *Esecuzione*       | Lancia 2d6. Se esce un doppio 1, un doppio 2 o un doppio 3 uccidi un nemico in distanza di Mischia. |
+| Sangue Freddo      | TEMP                                                         |
+| *Colpo Pulito* [⟲] | Se un attacco nemico ti ha mancato, attacca a tua volta (se la Distanza lo permette) |
 
-### Abilità
+#### Tecniche Shindo
 
-- **Esecuzione**: lancia 2d6. Se esce un doppio 1, un doppio 2 o un doppio 3 uccidi un nemico entro 1 Distanza.
-- **Shindo**: esegui una tecnica tra le seguenti (puoi usare una sola tecnica per Combattimento):
-  - **Kendai**: lanci un poderoso palmo di energia (2G, LR, 2d4).
-  - **Oo-mitsu** (r): dimezza i danni che subiresti dal prossimo attacco.
-  - **Ryo Ban Soi**: curati di 1 Stress.
-  - **Jotten**: colpisci con un calcio a mezzaluna (4G, M, 1d8).
-- **Furto**: ruba fino a 2V di oggetti da un nemico che non ti vede.
-- **Colpo pulito** (r): se schivi un attacco nemico, attacca a tua volta (se la Distanza lo permette). 
+| Tecnica      | Effetto                                                      |
+| ------------ | ------------------------------------------------------------ |
+| Kendai       | Lanci un poderoso palmo di energia [LR/1d8/Destrezza]        |
+| Oo-mitsu [⟲] | Se stai per subire danni, dimezzali (arrotondati per eccesso) |
+| Ryo Ban Soi  | Qualcosa in cui lanci 1d6 su ingegno tipo illusione (ma come tecnica shindo) |
+| Jokken       | Colpisci con un calcio a mezzaluna che ignora lo Scudo nemico [M, 2d4, Vigore] |
 
-### Capacità
+---
 
-I Ghonin ottengono 1 Grado in Furtività, Psicologia, Atletica e Manomissione.
+### Teurgo
 
+I Teurghi sono medici esperti, abili con gli esplosivi e con le droghe. Nel loro bizzarro arsenale di conoscenze trovano spazio misticismo e chimica, un cocktail che rende i Teurghi alleati formidabili e Operatori dalle risorse imprevedibili.
 
+| Beneficio           | Effetto                                                      |
+| ------------------- | ------------------------------------------------------------ |
+| *Salute del Teurgo* | A paraGEN 1 inizi con un valore di Salute pari a 6. Ogni volta che il tuo paraGEN aumenta, la tua Salute incrementa di 1d6 |
+| *Misticismo*        | La prima volta che durante un Combattimento subisci una Crisi, ignorala |
 
-## Teurgo
+#### Competenze
 
-I Teurghi sono medici esperti, abili con gli esplosivi e con le droghe. Nel loro bizzarro arsenale di abilità trovano spazio scienza e misticismo, un cocktail che rende i Teurghi alleati formidabili e combattenti dalle risorse impreviste.
+| Categorie | Competenze                              |
+| --------- | --------------------------------------- |
+| Protoarmi | K1, K2                                  |
+| Vettori   | Leggeri, Automatici                     |
+| Gusci     | Leggeri, Medi                           |
+| Capacità  | Medicina, Psicologia, Genetica e Storia |
 
-### Salute Iniziale 
+#### Abilità
 
-I Ghonin hanno un valore di Salute Iniziale pari a 7.
+| Abilità                | Effetto                                                      |
+| ---------------------- | ------------------------------------------------------------ |
+| ***Metacura*** **[⟲]** | Se tu o un alleato entro il Corto Raggio avete subito danni, cura metà di quel danno (arrotondato per eccesso) e infliggi lo stesso ammontare di danni al nemico attaccante |
+| *Blaster*              | Lanci una granata esplosiva che colpisce tutti i bersagli nella stessa distanza [CR/1d6/Vigore] |
+| *Psicosostanza*        | Inietti te stesso o un alleato in Mischia con una sostanza. Il bersaglio conferma i Colpi Critici con 9 e 10 fino al suo prossimo Loop |
+| *Mantra*               |                                                              |
 
-### Competenze
+---
 
-I Teurghi ottengono 1 Grado nelle protolame K1 e K2.
-
-I Teurghi ottengono 1 Grado nei vettori leggeri e automatici.
-
-I Teurghi possono indossare i Gusci Leggeri e i Gusci Medi.
-
-### Abilità
-
-- **Chirurgia** (e): cura un alleato di 1d6 Danni. Se eccedi la Soglia, rimuovi 1 Ferita.
-- **Blaster**: lancia una granata esplosiva che colpisce tutti i bersagli entro 2 Distanze (2G, CR, 1d6).
-- **Psicosostanza**: inietti una sostanza ad una creatura entro 1 Distanza. Scegli se: ottiene 2 Azioni in più per il prossimo turno; non è in grado di eseguire azioni il prossimo turno.
-- **Metafisica**: sposta una creatura che vedi in un luogo che vedi  (puoi scegliere te stesso). 
-
-### Capacità
-
-I Teurghi ottengono 1 Grado in Soccorso, Psicologia, Genetica e Storia.
-
-
-
-## SHELLER
+### SHELLER
 
 Gli Sheller sono gli unici in grado di accedere alla SHELL, il terminale metafisico capace di influenzare la realtà. Abili hacker e cyber-scienziati, possono aggirare le difese dei sistemi informatici e fornire supporto agli altri Operatori.
 
-### Salute Iniziale 
+| Beneficio              | Effetto                                                      |
+| ---------------------- | ------------------------------------------------------------ |
+| *Salute dello SHELLER* | A paraGEN 1 inizi con un valore di Salute pari a 4. Ogni volta che il tuo paraGEN aumenta, la tua Salute incrementa di 1d4 |
+| TEMP                   | TEMP                                                         |
 
-I Ghonin hanno un valore di Salute Iniziale pari a 6.
+#### Competenze
 
-### Competenze
+| Categorie | Competenze                      |
+| --------- | ------------------------------- |
+| Protoarmi | K1                              |
+| Vettori   | Leggeri, Automatici, Precisione |
+| Gusci     | Leggeri                         |
+| Capacità  | Ingegneria, Robotica e Hacking  |
 
-Gli Sheller ottengono 1 Grado nelle protolame K1.
+#### Abilità
 
-Gli Sheller ottengono 1 Grado nei vettori leggeri, automatici e di precisione.
+| Abilità        | Effetto                                                      |
+| -------------- | ------------------------------------------------------------ |
+| ***SHELL***    | Esegui un Comando                                            |
+| *Drone*        | TEMP                                                         |
+| TEMP           | TEMP                                                         |
+| *Backdoor* [⟲] | Se stai per essere attaccato, spostati di una distanza in direzione opposta rispetto al nemico attaccante |
 
-Gli Sheller possono indossare i Gusci Leggeri.
+#### Comandi SHELL
 
-### Abilità
+| Tecnica | Effetto                                                      |
+| ------- | ------------------------------------------------------------ |
+| GREP    | riveli Parametri, Salute, Difesa, Scudo e Pericolosità di un nemico che puoi vedere. |
+| CHMOD   | lancia 1d6; se superi l'Ingegno nemico, lo controlli fino al tuo prossimo turno (il tuo turno finisce immediatamente ed inizia quello del nemico controllato). |
+| ECHO    | invia un messaggio ad un qualsiasi sistema o essere vivente. |
+| SLEEP   | manda in stasi un nemico per 1 turno (non può eseguire azioni nè muoversi). |
+| SUDO    | resetta un Comando (puoi usarlo nuovamente senza causare una Crisi). |
 
-- **SHELL** (e): lancia un Comando tra i seguenti (puoi usare un solo Comando per Combattimento):
-  - **GREP**: riveli Parametri, Salute, Difesa, Scudo e Pericolosità di un nemico che puoi vedere.
-  - **CHMOD**: lancia 1d6; se superi l'Ingegno nemico, lo controlli fino al tuo prossimo turno (il tuo turno finisce immediatamente ed inizia quello del nemico controllato).
-  - **ECHO**: invia un messaggio ad un qualsiasi sistema o essere vivente.
-  - **SLEEP**: manda in stasi un nemico per 1 turno (non può eseguire azioni nè muoversi).
-  - **SUDO**: resetta un Comando (puoi usarlo nuovamente senza causare una Crisi).
-
-- **Drone**: attiva un drone che esegue Attacchi e Cura alleati per il resto del Combattimento (attacco: 1G, CR, 1d4; cura: M, 1).
-- **Ricerca improvvisata** (e): crea 1 oggetto casuale usando 3V di Ferraglia.
-- **Calcolatore**: riposizionati dove vuoi nell'Ordine di Battaglia. 
-
-### Capacità
-
-Gli Sheller ottengono 1 Grado in Ingegneria, Robotica e Hacking.
-
-
-
-## Capacità
-
-Le Capacità rappresentano ciò che il tuo personaggio sa fare. I Gradi indicano quanto un personaggio è esperto in una certa Capacità. Quando devi effettuare un'azione che coinvolge una certa Capacità, lancia un numero di dadi pari al Grado di quella Capacità.
-
-Di seguito vengono elencate le Capacità e per ognuna di esse viene fornita una breve descrizione.
-
-- Atletica: indica quanto sei bravo ad eseguire manovre fisiche.
-- Furtività: indica la tua abilità nel nasconderti agli altri.
-- Genetica: indica la tua conoscenza di altri esseri viventi.
-- Geologia: indica la tua conoscenza del terreno. 
-- Hacking: indica la tua abilità nel superare sistemi di difesa cibernetici.
-- Ingegneria: indica la tua abilità nell'utilizzo di macchinari.
-- Intuito: indica la tua abilità nel percepire minacce.
-- Manomissione: indica la tua abilità nel superare sistemi di difesa meccanici.
-- Psicologia: indica la tua abilità nel comprendere le intenzioni altrui.
-- Robotica: indica la tua abilità nell'utilizzo di strumentazione robotica.
-- Soccorso: indica la tua abilità nel prestare soccorso immediato e somministrare medicinali.
-- Storia: indica la tua conoscenza del passato.
-
-Quando un Operatore vuole eseguire un'azione che coinvolge una Capacità, l'Admin stabilisce un livello di difficoltà chiamato **Break**. L'Operatore lancia i dadi in base al numero di Gradi e sceglie il risultato migliore. Se quel risultato è pari o superiore al Break, l'Azione ha luogo. In caso contrario, l'Admin descrive le conseguenze del fallimento.
-
+---
 
 
 ## Equipaggiamento
@@ -580,25 +564,49 @@ L'esplorazione degli spazi chiusi richiede sempre 10 minuti per stanza.
 
 
 
-## Riposo
+### Capacità
+
+Le Capacità rappresentano ciò che il tuo personaggio sa fare. I Gradi indicano quanto un personaggio è esperto in una certa Capacità. Quando devi effettuare un'azione che coinvolge una certa Capacità, lancia un numero di dadi pari al Grado di quella Capacità.
+
+Di seguito vengono elencate le Capacità e per ognuna di esse viene fornita una breve descrizione.
+
+- Artiglieria: 
+- Atletica: indica quanto sei bravo ad eseguire manovre fisiche.
+- Furtività: indica la tua abilità nel nasconderti agli altri.
+- Genetica: indica la tua conoscenza di altri esseri viventi.
+- Geologia: indica la tua conoscenza del terreno.
+- Hacking: indica la tua abilità nel superare sistemi di difesa cibernetici.
+- Ingegneria: indica la tua abilità nell'utilizzo di macchinari.
+- Manomissione: indica la tua abilità nel superare sistemi di difesa meccanici.
+- Psicologia: indica la tua abilità nel comprendere le intenzioni altrui.
+- Robotica: indica la tua abilità nell'utilizzo di strumentazione robotica.
+- Medicina: indica la tua abilità nel prestare soccorso immediato e somministrare medicinali.
+- Storia: indica la tua conoscenza del passato.
+
+Quando un Operatore vuole eseguire un'azione che coinvolge una Capacità, l'Admin stabilisce un livello di difficoltà chiamato **Break**. L'Operatore lancia i dadi in base al numero di Gradi e sceglie il risultato migliore. Se quel risultato è pari o superiore al Break, l'Azione ha luogo. In caso contrario, l'Admin descrive le conseguenze del fallimento.
+
+
+
+### Riposo
 
 Il riposo riempie la propria Salute, ma non le ferite. Per curare le Ferite bisogna riposare nelle neurovasche di Sho-Gai (o altrove, se trovate) oppure utilizzare dei consumabili.
 
 Lo stress invece si resetta ogni giorno.
 
-## Capacità
+### Capacità
 
 È sempre possibile usare le proprie capacità in esplorazione.
 
 
 
-## Percezione
+### Percezione
 
 Ciò che viene percepito passivamente dai giocatori è pari al livello di lucidità dei singoli personaggi.
 
 
+## Gamemastering
 
-## Note
+### Note
 
 Il reset dello stress 3 (a cui va dato un nome) non porta il livello di stress a 2 ma a 1.
 

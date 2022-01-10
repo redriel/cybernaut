@@ -258,7 +258,7 @@ I Ghonin sono artisti marziali, ladri esperti, abili con le protolame e soprattu
 | Beneficio         | Effetto                                                      |
 | ----------------- | ------------------------------------------------------------ |
 | Salute del Ghonin | A paraGEN 1 inizi con un valore di Salute pari a 4. Ogni volta che il tuo paraGEN aumenta, la tua Salute incrementa di 1d4 |
-| temp              |                                                              |
+| Protomaestro      | I tuoi Colpi Critici con le Protoarmi ignorano lo Scudo nemico |
 
 #### Competenze
 
@@ -275,8 +275,8 @@ I Ghonin sono artisti marziali, ladri esperti, abili con le protolame e soprattu
 | ------------------ | ------------------------------------------------------------ |
 | ***Shindo***       | Utilizzi una Tecnica Shindo                                  |
 | *Esecuzione*       | Lancia 2d6. Se esce un doppio 1, un doppio 2 o un doppio 3 uccidi un nemico in distanza di Mischia. |
-| Sangue Freddo      | TEMP                                                         |
-| *Colpo Pulito* [⟲] | Se un attacco nemico ti ha mancato, attacca a tua volta (se la Distanza lo permette) |
+| Sangue Freddo      | Guadagni 2 azioni extra. La tua Difesa scende a 0 fino al tuo prossimo Loop |
+| *Colpo Pulito* [⟲] | Se un attacco nemico ti ha mancato, contrattacca (se la Distanza lo permette) |
 
 #### Tecniche Shindo
 
@@ -284,7 +284,7 @@ I Ghonin sono artisti marziali, ladri esperti, abili con le protolame e soprattu
 | ------------ | ------------------------------------------------------------ |
 | Kendai       | Lanci un poderoso palmo di energia [LR/1d8/Destrezza]        |
 | Oo-mitsu [⟲] | Se stai per subire danni, dimezzali (arrotondati per eccesso) |
-| Ryo Ban Soi  | Qualcosa in cui lanci 1d6 su ingegno tipo illusione (ma come tecnica shindo) |
+| Ryo Ban Soi  | Scegli un nemico in Corto Raggio e lancia 1d6. Se superi il suo Ingegno, fino alla fine del suo prossimo Loop, quel nemico non può attaccare |
 | Jokken       | Colpisci con un calcio a mezzaluna che ignora lo Scudo nemico [M, 2d4, Vigore] |
 
 ---
@@ -314,7 +314,7 @@ I Teurghi sono medici esperti, abili con gli esplosivi e con le droghe. Nel loro
 | ***Metacura*** **[⟲]** | Se tu o un alleato entro il Corto Raggio avete subito danni, cura metà di quel danno (arrotondato per eccesso) e infliggi lo stesso ammontare di danni al nemico attaccante |
 | *Blaster*              | Lanci una granata esplosiva che colpisce tutti i bersagli nella stessa distanza [CR/1d6/Vigore] |
 | *Psicosostanza*        | Inietti te stesso o un alleato in Mischia con una sostanza. Il bersaglio conferma i Colpi Critici con 9 e 10 fino al suo prossimo Loop |
-| *Mantra*               |                                                              |
+| *Mantra*               | Mediti fino al tuo prossimo Loop. Fino ad allora, non subisci danni |
 
 ---
 
@@ -325,7 +325,7 @@ Gli Sheller sono gli unici in grado di accedere alla SHELL, il terminale metafis
 | Beneficio              | Effetto                                                      |
 | ---------------------- | ------------------------------------------------------------ |
 | *Salute dello SHELLER* | A paraGEN 1 inizi con un valore di Salute pari a 4. Ogni volta che il tuo paraGEN aumenta, la tua Salute incrementa di 1d4 |
-| TEMP                   | TEMP                                                         |
+| Converter              | Puoi convertire 3 volumi di Ferraglia in un oggetto casuale. |
 
 #### Competenze
 
@@ -341,8 +341,8 @@ Gli Sheller sono gli unici in grado di accedere alla SHELL, il terminale metafis
 | Abilità        | Effetto                                                      |
 | -------------- | ------------------------------------------------------------ |
 | ***SHELL***    | Esegui un Comando                                            |
-| *Drone*        | TEMP                                                         |
-| TEMP           | TEMP                                                         |
+| *Drone*        | Dai un'istruzione al tuo drone                               |
+| Firewall       | Crea una Copertura nella posizione in cui ti trovi           |
 | *Backdoor* [⟲] | Se stai per essere attaccato, spostati di una distanza in direzione opposta rispetto al nemico attaccante |
 
 #### Comandi SHELL
@@ -370,87 +370,159 @@ Di seguito verranno illustrati tutti i tipi di equipaggiamento, divisi per categ
 
 I vettori sono fucili di diverso calibro e dimensione alimentati da energia parasinottica. Questo significa che non hanno bisogno di munizioni, ma possono sparare una sola volta per turno. I vettori a loro volta si suddividono in quattro classi: **leggeri**, **automatici**, **d'assalto** e **di precisione**.
 
-| Nome        | Classe     | Danni | Raggio | Proprietà  | Requisiti             |
-| ----------- | ---------- | :---: | :----: | ---------- | --------------------- |
-| Cometa      | Leggera    |  1d4  |   CR   | Tracciante |                       |
-| Dente RR    | Leggera    |  1d4  |   CR   | Silenziosa | Destrezza 3           |
-| Alfa 1      | Automatica |  1d4  |   LR   |            |                       |
-| Oculus      | Automatica |  1d6  |   LR   | Silenziosa |                       |
-| QAZAR       | Automatica |  1d6  |   CR   | Ricochet 1 | Vigore 3              |
-| TOR-98      | Assalto    |  1d6  |  SLR   | Tracciante |                       |
-| Trinità     | Assalto    |  2d4  |   LR   | Calcio 3   | Vigore 4              |
-| VK2         | Assalto    |  1d8  |   LR   |            |                       |
-| Epilogo SVN | Precisione |  2d6  |  SLR   | Silenziosa | Destrezza 4, 2 Azioni |
+#### Vettori Leggeri
+
+| Nome      | Danno | Raggio | Potenziale | Proprietà | Costo |
+| --------- | :---: | :----: | :--------: | --------- | ----- |
+| Dente RR  |  1d4  |   CR   | Destrezza  | Flare     | 150 G |
+| Cometa    |  1d4  |   CR   |   Vigore   | Autoshoot | 150 G |
+| Bandito 9 |  1d6  |   M    |   Vigore   | Laser     | 250 G |
+
+#### Vettori Automatici
+
+| Nome     | Danno | Raggio | Potenziale | Proprietà | Costo |
+| -------- | :---: | :----: | :--------: | --------- | ----- |
+| Alpha 1  |  1d4  |   LR   | Destrezza  | -         | 200 G |
+| Oculus   |  1d6  |   CR   |   Vigore   | Flare     | 300 G |
+| QAZAR 66 |  1d6  |   CR   |   Vigore   | Blast     | 350 G |
+
+#### Vettori d'Assalto
+
+| Nome   | Danno | Raggio | Potenziale | Proprietà | Costo |
+| ------ | :---: | :----: | :--------: | --------- | ----- |
+| TOR-98 |  1d6  |  SLR   | Destrezza  | Autoshoot | 650 G |
+| Atom   |  1d8  |   LR   | Destrezza  | Laser     | 600 G |
+| VK2    | 1d10  |   CR   |   Vigore   | Blast     | 700 G |
+
+#### Vettori di Precisione
+
+| Nome        | Danno | Raggio | Potenziale | Proprietà   | Costo  |
+| ----------- | :---: | :----: | :--------: | ----------- | ------ |
+| Epilogo SVN |  2d6  |  SLR   | Destrezza  | Mira        | 1000 G |
+| Jundic      |  2d4  |  SLR   |   Vigore   | Mira, Laser | 900 G  |
+
+#### Proprietà dei Vettori
+
+- **Laser**: in caso di Colpo Critico, ignora lo Scudo
+- **Mira**: richiede 3 Azioni
+- **Blast**: infligge 1 danno addizionale a tutti i personaggi sulla stessa distanza del bersaglio
+- **Flare**: se infliggi un Colpo Critico con quest'arma, il bersaglio ha la portata ridotta a Mischia durante il suo prossimo Loop
+- **Autoshoot**: in distanza di Mischia, l'arma colpisce automaticamente
 
 
+### Protoarmi
 
-### Protolame
+Le protoarmi sono armi da mischia in nerite, materiale duttile ed estremamente tagliente. Le protolame hanno generalmente la forma di lunghi coltelli, mazze, katane, catene di dimensioni e fatture. Si dividono in tre classi: K1, K2 e K3.
 
-Le protolame sono armi da mischia in nerite, materiale duttile ed estremamente tagliente. Le protolame hanno generalmente la forma di lunghi coltelli, sciabole o falcioni, di diverse dimensioni e fatture. Si dividono in tre classi: k1, k2 e k3.
+#### Protoarmi K1
 
-| Nome         | Classe | Danni | Raggio | Proprietà  | Requisiti   |
-| ------------ | :----: | :---: | :----: | ---------- | ----------- |
-| Bandito 9    |   k1   |  1d4  |   M    | Sangue 1   |             |
-| Uncino G28   |   k1   |  1d4  |   M    | Inchiodare | Destrezza 3 |
-| Senzabordi   |   k2   |  1d4  |   CR   | Mulino 2   |             |
-| Esojitte     |   k2   |  1d6  |   M    | Spezzare   |             |
-| Stilo Nomi   |   k2   |  1d8  |   M    | Inchiodare | Destrezza 4 |
-| UKZ          |   k3   |  1d4  |   CR   | Sangue 2   | Vigore 3    |
-| Placca Delta |   k3   |  1d8  |   M    | Spezzare   | Vigore 5    |
-| Abraj        |   k3   |  2d4  |   M    | Mulino 3   | Destrezza 5 |
+| Nome   | Danno | Raggio | Potenziale | Proprietà | Costo |
+| ------ | :---: | :----: | :--------: | --------- | ----- |
+| Khanda |  1d4  |   M    |   Vigore   | Tagliente | 100 G |
+| Urumi  |  1d4  |   M    | Destrezza  | Urto      | 100 G |
+| Bataar |  1d6  |   CR   |   Vigore   | -         | 200 G |
 
+#### Protoarmi K2
 
+| Nome   | Danno | Raggio | Potenziale | Proprietà | Costo |
+| ------ | :---: | :----: | :--------: | --------- | ----- |
+| Jitte  |  1d6  |   M    |   Vigore   | Stordente | 350 G |
+| Estoss |  1d4  |   CR   | Destrezza  | Tagliente | 400 G |
+| Nomiko |  1d8  |   M    | Destrezza  | -         | 400 G |
+
+#### Protoarmi K3
+
+| Nome         | Danno | Raggio | Potenziale | Proprietà | Costo |
+| ------------ | :---: | :----: | :--------: | --------- | ----- |
+| Zulfiq       |  1d4  |   LR   |   Vigore   | -         | 500 G |
+| Placca Delta |  1d8  |   M    |   Vigore   | Urto      | 450G  |
+| Abraj        |  2d4  |   M    | Destrezza  | Mulino    | 600 G |
+
+#### Proprietà Protoarmi
+
+- **Tagliente**: se infliggi danno con quest'arma, il bersaglio subisce 1 danno aggiuntivo all'inizio del suo prossimo Loop
+- **Stordente**: se infliggi un Colpo Critico con quest'arma, il bersaglio può compiere solo 1 Azione durante il suo prossimo Loop
+- **Urto**: se infliggi danno ad una Copertura, distruggila
+- **Mulino**: se infliggi danno con quest'arma, infliggi 1 danno addizionale a tutti i personaggi nella stessa Distanza del bersaglio
 
 ### Gusci
 
 I gusci sono particolari armature prodotte dalle carcasse dei liplorg, lumache gigantesche ormai estinte. I gusci non sono in grado di resistere a colpi diretti dei vettori e sono meno dure della nerite, ma sono comunque in grado di fornire protezione. I gusci si divono in 3 classi: leggeri, medi e pesanti.
 
-| Nome        | Classe  | Protezione | Scudo | Requisiti        |
-| ----------- | :-----: | :--------: | :---: | ---------------- |
-| Brigantina  | leggera |    1/0     |   1   |                  |
-| Tagelmust   | leggera |    2/0     |   0   | Destrezza 4      |
-| Zhan        |  media  |    2/-1    |   1   | Destrezza 3      |
-| Neurogiacca |  media  |    3/-1    |   1   | Vigore 3, +1 Cr. |
-| Giacotech   |  media  |    3/-1    |   2   |                  |
-| Usbergo     | pesante |    3/-1    |   2   | Vigore 3         |
-| Gibus       | pesante |    4/-3    |   2   |                  |
-| Kastenburst | pesante |    4/-2    |   3   | Vigore 5         |
+#### Gusci leggeri
 
+| Nome      | Protezione | Reattività | Scudo | Slot Chip | Costo |
+| --------- | :--------: | :--------: | :---: | :-------: | ----- |
+| Briggan   |     1      |     0      |   1   |     1     | 100 G |
+| Tagelmust |     2      |     0      |   0   |     1     | 100 G |
+| Dendra    |     1      |     0      |   0   |     2     | 150 G |
 
+#### Gusci medi
+
+| Nome   | Protezione | Reattività | Scudo | Slot Chip | Costo |
+| ------ | :--------: | :--------: | :---: | :-------: | ----- |
+| Zhan   |     2      |     -1     |   1   |     2     | 250 G |
+| Neurok |     3      |     -1     |   1   |     1     | 300 G |
+| Mughal |     3      |     -1     |   2   |     1     | 300 G |
+
+#### Gusci pesanti
+
+| Nome       | Protezione | Reattività | Scudo | Slot Chip | Costo |
+| ---------- | :--------: | :--------: | :---: | :-------: | ----- |
+| Tylinghit  |     3      |     -2     |   2   |     2     | 600 G |
+| Gibus      |     4      |     -3     |   2   |     2     | 600 G |
+| Kasenburst |     4      |     -3     |   3   |     1     | 700 G |
 
 ### Upgrade
 
-Gli accessori sono oggetti che conferiscono bonus passivi speciali. Non è possibile acquistare , ma negli antichi laboratori tecnologici disseminati sul Pianeta è possibile trovare Accessori dalle straordinarie capacità.
+Gli Upgrade sono oggetti che conferiscono bonus passivi speciali. Non è possibile acquistarli, ma negli antichi laboratori tecnologici disseminati sul Pianeta è possibile trovare Upgrade dalle straordinarie capacità. Ogni Operatore può equipaggiare al massimo due Upgrade alla volta.
 
+| Nome      |     Effetto     | Rarità | Costo  |
+| --------- | :-------------: | :----: | :----: |
+| Nanoscudo | Ottieni 1 Scudo |  Raro  | 2000 G |
 
+### Chip
 
-### Nucleosacca
+I Chip sono oggetti che possono essere installati su Vettori, Protoarmi e Gusci. I Chip modificano e potenziano l'equipaggiamento, sbloccando nuove abilità o rendendo le armi più letali. È possibile installare un solo chip su Vettori e Protoarmi, mentre è possibile installare un numero variabile di Chip sui Gusci.
 
-La nucleosacca è lo zaino dato in dotazione a tutti i Cacciatori di tecnologia. La nucleosacca contiente fino a 10V (volumi) di oggetti e al suo interno contiene fino a 5L di linfa. Ogni personaggio ha bisogno di 1L di linfa al giorno per sopravvivere al di fuori di Sho-Gai.
+### Nucleoborsa
 
-
+La Nucleoborsa è lo zaino dato in dotazione a tutti gli Operatori. La Nucleoborsda contiente fino a 10V (volumi) di oggetti e contiene fino a 5L di linfa. Ogni personaggio ha bisogno di 1L di linfa al giorno per sopravvivere al di fuori di Sho-Gai.
 
 ### Strumenti
 
 Gli strumenti sono oggetti con cui svolgere azioni speciali. Alcuni strumenti, come i *grimaldelli*, sono usa e getta, mentre altri, come l'*estrattore genetico* possono essere utilizzati un numero indefinito di volte.
 
-| Nome                |    Tipo    | Volume | Costo  | Utilizzo                               |
-| ------------------- | :--------: | :----: | :----: | -------------------------------------- |
-| Grimaldello         |  singolo   |   1V   | 2 gon  | strumento da scasso                    |
-| Estrattore genetico | permanente |   2V   | 30 gon | imbottiglia codice genetico per studio |
-| Olosegnale          | permanente |   3V   | 10 gon | luce di segnalazione                   |
-| Girolente           | permanente |   1V   | 8 gon  | analizzatore                           |
-| Plastico JDF        |  singolo   |   3V   | 18 gon | esplosivo                              |
-| Filo shiga          | permanente |   1V   | 22 gon | filo indistruttibile                   |
-| Triobussola         | permanente |   2V   | 25 gon | Coordinate x, y e z                    |
-| Crack ionizzato     |  singolo   |   3V   | 10 gon | disturbatore per strumenti             |
-| Pronto Soccorso     |  singolo   |   2V   | 5 gon  | cura immediata                         |
+| Nome           |    Tipo    | Volume | Costo  | Utilizzo                   |
+| -------------- | :--------: | :----: | :----: | -------------------------- |
+| Antidolorifico |  singolo   |   2V   | 100 G  | cura 1d6                   |
+| Medikit        |            |        | 200 G  | cura 1d6 oltre soglia      |
+| Psicofarmaci   |            |        |        | toglie o aggiunge 1 stress |
+|                |            |        |        |                            |
+|                |            |        |        |                            |
+|                |            |        |        |                            |
+|                |            |        |        |                            |
+|                |            |        |        |                            |
+| Filo shiga     | permanente |   1V   | 22 gon | filo indistruttibile       |
+| Grimaldello    |  singolo   |   1V   | 2 gon  | strumento da scasso        |
 
+### Servizi
 
-
-### Crediti
-
-All'inizio di ogni sessione, gli Operatori iniziano con 50 gon a loro disposizione.
+| Nome                       |        Descrizione        |          Costo           |
+| -------------------------- | :-----------------------: | :----------------------: |
+| Rifornimento Nucleoborsa   | Rifornimento della Linfa  |           50 G           |
+| Retrace genetico           | Retrain Abilità di Specie |          500 G           |
+| Retrace mnemonico          | Retrain Abilità di Classe |         1 000 G          |
+| Sblocco paraGEN 2          |      Primo level up       |         5 000 G          |
+| Sblocco paraGEN 3          |     Secondo level up      |         10 000 G         |
+| Sblocco paraGEN 4          |      Terzo level up       |         25 000 G         |
+| Sblocco paraGEN 5          |      Quarto level up      |         50 000 G         |
+| Starpod                    |          Viaggio          |         1 000 G          |
+| Mannah V2                  |    Mercante itinerante    | Costo Merci raddioppiato |
+| Ascensore                  |      Rientro Sho Gai      |          500 G           |
+| Estrazione entro 500 Seqel |      Rientro Sho Gai      |         2 000 G          |
+| Estrazione oltre 500 Seqel |      Rientro Sho Gai      |         6 000 G          |
+| Abbandonare il Pianeta     |             -             |        100 000 G         |
 
 
 
@@ -510,7 +582,7 @@ Quando raggiungi 0 punti salute, diventi insconscio. Se il tuo punteggio di Salu
 
 
 
-### Stress e Crisi
+### Stress, Crisi e Catarsi
 
 Lo Stress è la misura dei danni mentali accumulati dal tuo personaggio. Ogni Operatore inizia con un punteggio di Stress pari a 0. Tuttavia, degli eventi chiamati **Crisi** possono aumentare questo punteggio, fino ad un massimo di 3.
 

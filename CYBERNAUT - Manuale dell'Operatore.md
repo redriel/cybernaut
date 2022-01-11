@@ -1,20 +1,20 @@
-## HUSK RPG - Manuale di Gioco
+## CYBERNAUT RPG - Manuale di Gioco
 
-**HUSK** è un gioco di ruolo da tavolo ambientato su un pianeta senza nome, chiamato semplicemente **Pianeta**, un mondo ostile coperto da deserti, canyon e lande ghiacciate. Cacciatori di tecnologia chiamati **Operatori** esplorano le rovine di antichi laboratori e città perdute alla ricerca di preziosi hardware da rivendere nella metropoli di Sho-Gai.
+**CYBERNAUT** è un gioco di ruolo da tavolo ambientato su un pianeta senza nome, chiamato semplicemente **Pianeta**, un mondo ostile coperto da deserti, canyon e lande ghiacciate. Cacciatori di tecnologia chiamati **Operatori** esplorano le rovine di antichi laboratori e insediamenti abbandonati alla ricerca di preziosi hardware da rivendere nella metropoli di Sho-Gai, l'unica città del Pianeta.
 
-In HUSK ci sono poche regole da imparare, in breve tempo sarai in grado di creare il tuo Operatore ed iniziare ad esplorare le lande inospitali del Pianeta.
+In CYBERNAUT ci sono poche regole da imparare, in breve tempo sarai in grado di creare il tuo Operatore ed iniziare ad esplorare le lande inospitali del Pianeta.
 
-Nella prima parte di questa guida troverai tutte le regole per iniziare a giocare come Operatore. La seconda parte della guida è riservata agli **Admin**, ossia coloro che amministrano il gioco.
+Nella prima parte di questa guida troverai tutte le regole per iniziare a giocare come Operatore. La seconda parte della guida è riservata agli **Admin**, coloro che amministrano il gioco.
 
-Per giocare ad HUSK ti occorreranno un dado a 10 facce (d10), un dado a 8 facce (d8), un dado a 6 facce (d6) e un dado a 4 facce (d4).  Avrai bisogno anche di un foglio, chiamato **LOG**, in cui riportate le informazioni del tuo Operatore, e di una plancia di gioco, chiamata **STACK**, sulla quale si svolgeranno i combattimenti (*puoi costruirla tu stesso!*).
+Per giocare a CYBERNAUT ti occorreranno un dado a 10 facce (d10), un dado a 8 facce (d8), un dado a 6 facce (d6) e un dado a 4 facce (d4).  Avrai bisogno anche di un foglio, chiamato **LOG**, in cui riportate le informazioni del tuo Operatore, e di una plancia di gioco, chiamata **STACK**, sulla quale si svolgeranno i combattimenti (*puoi costruirla tu stesso!*).
 
 ---
 
 ## Le basi del Gioco
 
-HUSK è un gioco cooperativo. I giocatori, nei panni di Operatori, collaborano per superare missioni mortali e combattimenti frenetici. A guidare gli Operatori c'è l'Admin, la persona che si occupa di gestire il gioco in tutti i suoi aspetti. L'Admin descrive l'ambiente circostante, interpreta i personaggi che popolano il mondo di gioco e gestisce i nemici in combattimento.
+CYBERNAUT è un gioco cooperativo. I giocatori, nei panni di Operatori, collaborano per superare missioni e combattimenti frenetici. A guidare gli Operatori c'è l'Admin, la persona che si occupa di gestire il gioco in tutti i suoi aspetti. L'Admin descrive l'ambiente circostante, interpreta i personaggi che popolano il mondo di gioco e gestisce i nemici in combattimento.
 
-Prima di iniziare a giocare è fondamentale familiarizzare con alcune parole chiave utilizzati in HUSK. Conoscere questi termini è inoltre utile per avere una panoramica generale sulle meccaniche di gioco, sia che tu voglia giocare come Operatore che come Admin.
+Prima di iniziare a giocare è fondamentale familiarizzare con alcune parole chiave utilizzati in CYBERNAUT. Conoscere questi termini è inoltre utile per avere una panoramica generale sulle meccaniche di gioco, sia che tu voglia giocare come Operatore che come Admin.
 
 
 
@@ -57,17 +57,19 @@ Idoneità di un Operatore nell'utilizzare un particolare Equipaggiamento.
 #### Grado
 Valore che indica quanto un Operatore è esperto nell'utilizzo di Equipaggiamento o di una Capacità. Più alto è il Grado, più alta è la probabilità che l'azione venga eseguita con successo.
 
-#### Miglior lancio
+#### Miglior Lancio
 Quando viene lanciato più di un dado per determinare l'esito di una azione, viene scelto il risultato più alto.
 
 #### Overload
 Possibilità di utilizzare più Abilità di quelle consentite in un dato lasso di tempo. Utilizzare una Abilità in Overload comporta tuttavia dei malus.
 
+#### Test
 
+Prova per stabilire se l'azione di una Capacità ha successo o meno.
 
 ### Creare un Operatore
 
-I giocatori creano un alter ego chiamato Operatore. Quando crei un Operatore puoi scegliere liberamente il background che lo caratterizza, le sue esperienze passate, la sua personalità ed il suo aspetto. Utilizzi invece le regole di HUSK per stabilire che cosa il tuo Operatore è in grado di fare durante il gioco.
+I giocatori creano un alter ego chiamato Operatore. Quando crei un Operatore puoi scegliere liberamente il background che lo caratterizza, le sue esperienze passate, la sua personalità ed il suo aspetto. Utilizzi invece le regole di CYBERNAUT per stabilire che cosa il tuo Operatore è in grado di fare durante il gioco.
 
 Per creare un Operatore, segui questi passaggi:
 
@@ -347,13 +349,13 @@ Gli Sheller sono gli unici in grado di accedere alla SHELL, il terminale metafis
 
 #### Comandi SHELL
 
-| Tecnica | Effetto                                                      |
-| ------- | ------------------------------------------------------------ |
-|         |                                                              |
-|         |                                                              |
-|         |                                                              |
-| SLEEP   | manda in stasi un nemico per 1 turno (non può eseguire azioni nè muoversi). |
-| SUDO    | resetta un Comando (puoi usarlo nuovamente senza causare una Crisi). |
+| Tecnica  | Effetto                                                      |
+| -------- | ------------------------------------------------------------ |
+| BATCH    | Scegli un bersaglio a LR e, se nemico, lancia 1d6 come Test contro il suo Ingegno. Il bersaglio compie una azione a tua scelta. |
+| ECHO     | Scegli un bersaglio a LR e, se nemico, lancia 1d6 come Test contro il suo Ingegno. La prossima azione compiuta dal bersaglio ha effetto 2 volte |
+| WAIT [⟲] | Se stai per subire danni, compi una azione. Poi subisci i danni normalmente |
+| SLEEP    | Scegli un bersaglio a LR e lancia 1d6 come Test contro il suo Ingegno. Se vinci, il bersaglio non può compiere azioni durante il suo prossimo Loop |
+| SUDO     | Lancia un Comando senza concedere un Test al bersaglio (entrambi i Comandi vengono utilizzati, ma conta come una sola azione) |
 
 ---
 
@@ -491,7 +493,9 @@ La Nucleoborsa è lo zaino dato in dotazione a tutti gli Operatori. La Nucleobor
 
 ### Strumenti
 
-Gli strumenti sono oggetti con cui svolgere azioni speciali. Alcuni strumenti, come i *grimaldelli*, sono usa e getta, mentre altri, come l'*estrattore genetico* possono essere utilizzati un numero indefinito di volte.
+Gli strumenti sono oggetti con cui svolgere azioni speciali. Alcuni strumenti, come i *grimaldelli*, sono usa e getta, mentre altri, come la *carrybox*, possono essere utilizzati un numero indefinito di volte. Ogni strumento occupa un certo volume; una nucleoborsa può contenere solo 10 volumi di strumenti e oggetti.
+
+**N.B.** Protoarmi e Vettori occupano tutti 3V, mentre i Gusci occupano 5V.
 
 | Nome             |  Utilizzo  | Volume |  Costo   | Effetto                                                |
 | ---------------- | :--------: | :----: | :------: | ------------------------------------------------------ |
@@ -534,121 +538,138 @@ Gli strumenti sono oggetti con cui svolgere azioni speciali. Alcuni strumenti, c
 
 ## Combattimento
 
-Il Combattimento è il fulcro di Husk RPG. La fase di Combattimento inzia ogni volta che gli Operatori incontrano una o più entità ostili.
+Il Combattimento è il fulcro di CYBERNAUT RPG. La fase di Combattimento inzia ogni volta che gli Operatori incontrano una o più entità ostili.
 
-Il combattimento in Husk è frenetico, veloce e spesso letale. Non sempre affrontare dei nemici a testa bassa è la soluzione migliore. Ma quando evitare lo scontro è impossibile, le regole da seguire sono riportate nei capitoli successivi.
+Il combattimento in CYBERNAUT è frenetico, veloce e spesso letale. Il Combattimento si svolge a turni, chiamati LOOP. Ogni personaggio coinvolto nel Combattimento agisce nel proprio Loop; questo processo si ripete finchè il Combattimento non è terminato.
+
+
+
+### STACK
+
+I Combattimenti di CYBERNAUT avvengono su una plancia chiamata Stack.
+
+![](D:\Utenti\Redriel\Dungeons and Dragons\husk\tokens\stack_popolato.png)
+
+
+
+In questa immagine ci sono due Operatori, uno in giallo ed uno in verde, e due nemici con lo sfondo nero. Questa immagine verrà utilizzata anche nei paragrafi successivi per illustrare le meccaniche di base del Compattimento.
 
 
 
 ### L'Ordine dei LOOP
 
-All'inizio del Combattimento, tutti i personaggi *consci* (ossia che sono consapevoli dell'inizio dello scontro) entrano nello STACK, che rappresenta l'ordine in cui Operatori e nemici eseguono il proprio turno. 
+La prima cosa da fare ad inizio Combattimento, è quella di stabilire l'Ordine dei Loop, ossia in che sequenza Operatori e nemici compiono il proprio turno.
 
-Per stabilire l'ordine dello STACK si utilizza la **Reattività**. In caso di pari punteggio di Reattività, si favoriscono casualmente gli Operatori o i nemici.
+Per stabilire l'ordine dei Loop si utilizza la **Reattività**. I personaggi vengono disposti in ordine decrescente, dal valore di Reattività più alto a quello più basso. 
 
-Dopo che lo STACK è stato stabilito, si procede con i turni di ogni singolo personaggio, fino alla fine del Combattimento.
+In caso di pari punteggio di Reattività, si favoriscono gli Operatori, e a seguire i nemici.
+
+Dopo che l'ordine è stato stabilito, si procede con i Loop di ogni singolo personaggio, fino alla fine del Combattimento.
 
 
 
-### LOOP
+### Azioni
 
-Durante il proprio turno si ha a disposizione 1 Movimento e 2 Azioni. Qualora si sia feriti, si ha a disposizione 1 Movimento ed 1 Azione. 
+Durante il proprio Loop si hanno a disposizione 3 punti azione (PA). Ogni punto azione consente di svolgere una azione a propria scelta tra quelle a disposizione del proprio Operatore. Le azioni principali sono **Attacco** (con Vettore o Protoarma), **utilizzo di una Abilità**, **Movimento**. È possibile utilizzare una qualsiasi combinazione di azioni nel proprio Loop, fintanto che si rientra nel limite di 3. Allo stesso modo, non si è obbligati a compiere esattamente 3 azioni, ma i punti azione inutilizzati non si mantengono all'inizio del prossimo Loop.
+
+| Azione                        | Descrizione                                    | Costo Punti Azione |
+| ----------------------------- | ---------------------------------------------- | ------------------ |
+| Attaco                        | Colpire con Vettore/Protoarma                  | 1                  |
+| Movimento                     | Ci si sposta di 1 Distanza                     | 1                  |
+| Utilizzo Abilità              | Usare Abilità di Specie/Classe                 | 1                  |
+| Entrare/Rimanere in Copertura | Sfruttare un riparo                            | 1                  |
+| Utilizzare un oggetto         | Usare un oggetto trasportato nella nucleoborsa | 1                  |
+| Cambiare arma                 | Cambiare arma con una nella nuceloborsa        | 2                  |
+| Fuggire                       | Uscire dal combattimento                       | 3                  |
 
 
 
 ### Movimento e Distanze
 
-In Husk esistono 4 Distanze, che rappresentano quanto due creature sono distanti tra loro. Le distanze sono: Mischia (M), Corto Raggio (CR), Lungo Raggio (LR), Super Lungo Raggio (SLR). Quando si usa 1 Movimento ci si può spostare di 1 Distanza.
+In CYBERNAUT esistono 4 Distanze, che rappresentano quanto due creature sono distanti tra loro. Nello STACK le Distanze sono rappresentate dalle colonne verticali. Le righe invece non hanno rilevanza a fini di gioco.
 
+Le distanze sono: Mischia (M), Corto Raggio (CR), Lungo Raggio (LR), Super Lungo Raggio (SLR). 
 
+Osservando lo STACK, quando due personaggi si trovano nella stessa colonna o in due colonne adiacenti, sono in Mischia. Se due personaggi sono separati da una colonna, sono in Corto Raggio. Se sono separati da 2 colonne, sono in Lungo Raggio. Se sono separati da 3 colonne, sono in Super Lungo Raggio. Se sono separati da 4 colonne o più, non possono interagire a causa della distanza troppo grande.
+
+### Copertura
+
+A volte nello STACK sono presenti delle Coperture. Le Coperture sono tavoli ribaltati, terminali dietro cui ripararsi, portelloni aperti. Quando un personaggio è in Copertura, non può essere bersaglio di Attacchi o Abilità che non siano in Mischia. Entrare in Copertura e rimanere in Copertura costa 1 PA. È possibile tuttavia attaccare una Copertura. **Tutte le Coperture hanno una Difesa di 5 ed una Salute di 5.**
 
 ### Attacco
 
-Durante il turno, puoi attaccare nemici di cui sei conscio. Quanto decidi di effettuare un Attacco, lancia un numero di d10 pari ai Gradi dell'arma che stai utilizzando e prendi il risultato migliore. Un 1 è sempre un Attacco fallito, mentre un 10 è sempre un Attacco riuscito. Confronta il risultato del lancio con la **Difesa** nemica. Se il risultato è pari o superiore, lancia i dadi del Danno dell'arma. Un attacco richiede un'azione.
+Durante il turno, puoi attaccare nemici a portata delle tue armi e Abilità. Quanto decidi di effettuare un Attacco, lancia un numero di d10 pari ai Gradi dell'arma che stai utilizzando e prendi il risultato migliore. Un 1 è sempre un Attacco fallito, mentre un 10 è sempre un Attacco riuscito (*Colpo Critico*). Confronta il risultato del lancio con la **Difesa** nemica. Se il risultato è pari o superiore, lancia i dadi del Danno dell'arma.
+
+Quando esegui un Colpo Critico, puoi decidere se massimizzare il danno, ossia non lanciare il dado dei danni ma prendere il risultato più alto, oppure rimuovere 1 Stress dal tuo Operatore.
 
 
 
-### Abilità
+### Abilità e Overclock
 
-Durante il tuo turno puoi utilizzare al massimo 1 Abilità. Quando utilizzi una particolare Abilità, devi soddisfare tutti i requisiti richiesti. Ad esempio, le Abilità con la dicitura (r) possono essere utilizzate unicamente **in risposta** ad un evento.
+Durante il tuo Loop puoi utilizzare tutte le Abilità che vuoi. Tuttavia, se nello stesso Combattimento decidi di utilizzare la stessa Abilità più volte, incorri in un Overclock.
 
-Puoi usare tutte le abilità che vuoi in Combattimento, ma ogni Abilità può essere utilizzata 1 'senza rischi' solamente una volta. Se decidi di utilizzare la stessa Abilità più volte in un Combattimento, incorri in una Crisi.
+La prima volta che utilizzi una Abilità in Overclock subisci una Crisi. Dalla seconda volta in poi guadagni 1 Stress.
+
+Alcune Abilità hanno la dicitura [⟲]. Significa che puoi usare queste Abilità al di fuori del tuo Loop. Puoi usare 1 sola Abilità [⟲] tra la fine del tuo precedente Loop e l'inizio del prossimo. Questo limite non può essere aggirato tramite Overclock. Per il resto, le Abilità [⟲] seguono le regole delle Abilità normali.
 
 
 
-### Salute e Ferite
+### Salute, Soglia e Ferito
 
-Il tuo personaggio dispone di un punteggio Salute, ottenuto sommando il Vigore alla Salute Iniziale della tua Classe.
+Il tuo personaggio dispone di un punteggio Salute, ottenuto sommando il Vigore alla Salute Iniziale della tua Classe, il tutto moltiplicato per 2.
 
-Questo punteggio Salute va raddoppiato. Ad esempio, se sei un Ghonin (salute iniziale 5) e disponi di un Vigore pari a 5, il tuo punteggio di Salute sarà pari a 10, moltiplicato per 2, 20.
+Ad esempio, se sei un Ghonin con salute iniziale 5 e disponi di un Vigore pari a 5, il tuo punteggio di Salute sarà pari a 10, e moltiplicandolo per 2 otterrai 20.
 
-Fintanto che il tuo personaggio si trova al di sopra della Soglia, che è il tuo punteggio iniziale (nel caso di prima, 10) allora è in salute. Quando scende al di sotto della Soglia (10 o meno) è Ferito e subisce una Crisi.
+La metà esatta della tua Salute si chiama Soglia. Fintanto che il tuo Operatore è al di sopra della Soglia, dispone di 3 PA. Quando scende al di sotto della Soglia, diventa Ferito.
 
-Quando raggiungi 0 punti salute, diventi insconscio. Se il tuo punteggio di Salute scende sotto lo 0, muori.
+Un Operatore con la condizione Ferito dispone di 2 PA e le cure normali non riportano la sua Salute al di sopra della Soglia.
+
+Quando un Operatore arriva a 0 di Salute, è Fuori Gioco. Un Operatore Fuori Gioco dispone di 0 PA. Quando un Operatore arriva ad un punteggio negativo di Salute, muore.
 
 
 
 ### Stress, Crisi e Catarsi
 
-Lo Stress è la misura dei danni mentali accumulati dal tuo personaggio. Ogni Operatore inizia con un punteggio di Stress pari a 0. Tuttavia, degli eventi chiamati **Crisi** possono aumentare questo punteggio, fino ad un massimo di 3.
+Lo Stress è la misura dei danni mentali accumulati da un Operatore. Ogni Operatore inizia con un punteggio di Stress pari a 0. Tuttavia, degli eventi chiamati **Crisi** possono aumentare questo punteggio, fino ad un massimo di 3.
 
 Si verifica una Crisi quando:
 
-- subisci un attacco critico
-- subisci un attacco mentale
-- fallisci una azione pericolosa
-- diventi Ferito
-- utilizzi la stessa Abilità più volte nello stesso Combattimento
+- si subisce un colpo critico
+- si subisce un attacco mentale
+- si fallisce una azione pericolosa
+- si ottiene la condizioneFerito
+- si usa una Abilità in Overclock
 
-Ogni volta che il tuo Operatore affronta una Crisi, devi lanciare un numero di d10 pari al tuo punteggio di lucidità e prendere il risultato migliore. Se il risultato è pari o superiore a 8, non succede nulla. Altrimenti, incrementa di 1 il tuo punteggio di Stress.
+Ogni volta che un Operatore affronta una Crisi, deve lanciare un numero di d10 pari al suo punteggio di Lucidità e prendere il risultato migliore. Se il risultato è pari o superiore a 8, non succede nulla. Altrimenti, il suo punteggio di Stress incrementa di 1.
 
-Quando il tuo punteggio di Stress raggiunge il valore 3, lancia 1d6 ed applica l'azione riportata nella tabella:
+Quando il punteggio di Stress raggiunge il valore 3, l'Operatore subisce una Catarsi. Il giocatore lancia 1d6 ed applica l'azione riportata nella tabella:
 
-| Risultato |                 Effetto                  | Descrizione                                                  |
-| :-------: | :--------------------------------------: | ------------------------------------------------------------ |
-|     1     |              Determinazione              | Rimuovi 2 Stress                                             |
-|     2     |                Nichilismo                | Subisci 1d4 danni. Rimuovi 1 Stress                          |
-|     3     |                 Amnesia                  | Perdi permanentemente 1 Grado nella Competenza o Arma in cui hai più Gradi. Rimuovi 1 Stress. |
-|     4     |                 Psicosi                  | Attacchi l'alleato più vicino. Rimuovi 1 Stress.             |
-|     5     |                   Coma                   | Rimani incoscio per 1h. Rimuovi 1 Stress                     |
-|     6     | Arresto cardiaco / System Failure (sync) | Muori                                                        |
-
-
-
-### Risoluzione del Combattimento
-
-Il Combattimento è risolto quando una delle due parti è impossibilitata a combattere. Questo include fuga, sterminio o resa. Al termine del combattimento, lo STACK è svuotato e si rientra in modalità di Esplorazione.
-
-
-
-### Azioni di Combattimento
-
-Durante il combattimento, oltre ad Attaccare ed usare Abilità, puoi compiere altre azioni. Quando non specificato diversamente, queste azioni costano 1 Azione.
-
-- **nascondersi** = ci si nasconde usando Furtività.
-- **copertura** = ci si copre dietro un oggetto. Si ottiene +2 difesa fino al prossimo turno. Rimanere in copertura costa sempre 1 azione.
-- **supportare** = se si ha un Grado in una abilità, si può fornire quel grado ad un alleato per il suo prossimo turno.
-- **fuga** = si tenta la fuga dal Combattimento.
+| Risultato |      Effetto       | Descrizione                                                  |
+| :-------: | :----------------: | ------------------------------------------------------------ |
+|     1     |  *Determinazione*  | Il tuo prossimo attacco è un Colpo Critico.                  |
+|     2     |    *Nichilismo*    | Subisci 1d4 danni.                                           |
+|     3     |     *Amnesia*      | Il tuo Loop finisce. Durante il tuo prossimo Loop non puoi agire. |
+|     4     |     *Psicosi*      | Attacchi l'alleato più vicino.                               |
+|     5     |       *Coma*       | Vai a 0 punti Salute.                                        |
+|     6     | *Arresto cardiaco* | Muori.                                                       |
 
 
 
 ## Esplorazione
 
-La maggior parte del tempo trascorso dai giocatori è in modalità esplorazione. Le abilità che  hanno la dicitura (e) possono anche esser usate in esplorazione.
-
-Il tempo trascorre di 1h per ogni kilometro percorso a piedi, 1h per ogni 50km percorsi in veicolo terrestre e 1h per ogni 200km percorsi in veicolo aereo.
-
-L'esplorazione degli spazi chiusi richiede sempre 10 minuti per stanza.
+L'Esplorazione è la fase di gioco in cui gli Operatori esplorano il Pianeta, interagiscono con altri personaggi e compiono azioni non relative al combattimento. Durante l'Esplorazione vengono utilizzate le Capacità, abilità speciali che permettono di interagire con l'ambiente circostante e con gli altri personaggi.
 
 
 
-### Capacità
+### Capacità e Test
 
 Le Capacità rappresentano ciò che il tuo personaggio sa fare. I Gradi indicano quanto un personaggio è esperto in una certa Capacità. Quando devi effettuare un'azione che coinvolge una certa Capacità, lancia un numero di dadi pari al Grado di quella Capacità.
 
+Quando decidi di svolgere una azione mediante Capacità, l'Admin stabilisce un punteggio e avvia un Test. Scegli il Miglior Lancio della tua Capacità e l'Admin ti dirà se l'azione ha avuto successo oppure no.
+
 Di seguito vengono elencate le Capacità e per ognuna di esse viene fornita una breve descrizione.
 
-- Artiglieria: 
+- Artiglieria:  indica quanto sei bravo a utilizzare e riparare i Vettori.
 - Atletica: indica quanto sei bravo ad eseguire manovre fisiche.
 - Furtività: indica la tua abilità nel nasconderti agli altri.
 - Genetica: indica la tua conoscenza di altri esseri viventi.
@@ -661,124 +682,21 @@ Di seguito vengono elencate le Capacità e per ognuna di esse viene fornita una 
 - Medicina: indica la tua abilità nel prestare soccorso immediato e somministrare medicinali.
 - Storia: indica la tua conoscenza del passato.
 
-Quando un Operatore vuole eseguire un'azione che coinvolge una Capacità, l'Admin stabilisce un livello di difficoltà chiamato **Break**. L'Operatore lancia i dadi in base al numero di Gradi e sceglie il risultato migliore. Se quel risultato è pari o superiore al Break, l'Azione ha luogo. In caso contrario, l'Admin descrive le conseguenze del fallimento.
+Generalmente, i Test hanno dei punteggi fissi a seconda della difficoltà.
+
+Un Test con punteggio 5 è mediamente difficile, mentre uno con punteggio 8 è molto difficile. Il punteggio minimo per un Test è 1 ed il massimo è 10.
 
 
 
 ### Riposo
 
-Il riposo riempie la propria Salute, ma non le ferite. Per curare le Ferite bisogna riposare nelle neurovasche di Sho-Gai (o altrove, se trovate) oppure utilizzare dei consumabili.
+Il riposo riempie la propria Salute, ma solo entro la Soglia. Per curare le Ferite bisogna riposare nelle Neurovasche di Sho-Gai (o altrove, se trovate) oppure utilizzare degli Strumenti.
 
-Lo stress invece si resetta ogni giorno.
-
-### Capacità
-
-È sempre possibile usare le proprie capacità in esplorazione.
+Lo Stress torna a 0 solo se si riposa in un luogo sicuro.
 
 
-
-### Percezione
-
-Ciò che viene percepito passivamente dai giocatori è pari al livello di lucidità dei singoli personaggi.
 
 
 ## Gamemastering
 
-### Note
-
-Il reset dello stress 3 (a cui va dato un nome) non porta il livello di stress a 2 ma a 1.
-
-L'utilizzo consecutivo di una abilità (dopo il primo utilizzo 'gratis') si chiama overload.
-
-Il primo overload causa una crisi. Il secondo causa una crisi con malus -1 a Lucidità, e così via (-2, -3).
-
-C'è un cap di livello per i gradi massimi. Livello 1 max 2, livello 2 max 3...livello 5 max 6.
-
-Ingegno va ripensato come attributo.
-
-Trovata la soluzione. ingegno si occupa solo dei gradi nelle capacità. quando sali di livello (incluso liv 1) ottieni tanti gradi quato il tuo livello di ingegno. Li spalmi come vuoi ma non eccedi il cap max. Destrezza e Vigore simili, senza spendere punti e senza gradi iniziali! Se hai competenza in un'arma data dalla tua classe, allora in quell'arma (che ha scaling) avrai tanti gradi quanto il tuo livello di vigore/dex, rispettando il cap MAX!
-
-Ripensare ai gusci.
-
-Quando si leveluppa, si sblocca un grado extra come cap in tutto e si ottengono nuovi gradi da ingegno. Inoltre si aumenta la vita del livello di classe. Trovare un modo di potenziare le abilità...magari permettendo più utilizzi senza stress? O aggiungendo dei benefici di classe? ci pensiamo.
-
-Aggiungere soglia per nemici.
-
-Spiegare il combattimento come monodimensionale e lineare.
-
-Ferito non toglie 1 azione tra attacco e abilità ma 1 a scelta del giocatore. (Ma forse non è abbastanza, forse bisogna giocare sullo stress o roba del genere). Probabilmente in ferito non si sceglie il dado migliore, ma il secondo dado migliore.
-
-Tracciante fa colpire solo quelli in copertura.
-
-Penetrante sorpassa lo scudo
-
-I soldi servono per levelappare. In pratica sono dei potenziamenti genetici /software update per sbloccare il cap.
-
-Il livello 1 dà accesso a 1 abilità di razza, 1 abilità core e 2 abilità a scelta. Salendo di livello l'abilità core si potenzia e si sbloccano nuove abilità di classe, che sono equippabili e swappabili (pagando un modulatore di memoria genetica). Le abilità di razza anche sono swappabili nello stesso modo.
-
-i gusci danno max destrezza sulla difesa.
-
-i soldi per abbandonare il pianeta (goal di un pg) sono 100k.
-
-la cura del teurgo è una reazione che cura quando un pg è ferito.
-
-La cura umana è una reazione (scienza medica) che dice che se ci si cura con un consumabile e non si supera la soglia, invece lo si fa.
-
-rivedere abilità dell'agente
-
-a shogai si puo scommettere denaro
-
-a shogai ce una banca
-
-ci sono dei psicofarmaci che fanno 1d10 di cura, se esce 10 cura + ferita, 1 2 di stress, e in mezzo i pari curano e i dispari danneggiano.
-
-metacura: cura riavvolgitempo del teurgo
-
-ingegno resistenza hacking mentale
-
-sudo: usa sia sudo che cmd per ignorare lancio su ingegno
-
-
-
-Ordine da seguire:
-
-Introduzione
-
- - introduzione flavour al gioco
- - brevissimo elenco integrato di parole chiave
- - elenco di come creare i personaggi
-
-
-
-Parametri e caratteristiche
-
-Gli Parametri si chiamano ora Parametri. Spiegare che i Parametri sono i descrittori essenziali e che le Caratteristiche sono dei valori derivati. Spiegare che le caratteristiche possono essere influenzate dall'equip (introdurre nuova caratteristica: potenziamento genetico / versione software)
-
-Specie
-
-Classi
-
-Capacità
-
-EQUIPAGGIAMENTO
-
-- GAMEPLAY
-
-  - COMBATTIMENTO
-    - L'ARRAY
-    - LO STACK
-    - LE AZIONI POSSIBILI
-    - L'OVERLOAD
-  - ESPLORAZIONE
-  - RIPOSO (TUTTA LA PARTE DI SHO-GAI E LEVEL UP)
-
-  SHOGAI E FLAVOUR
-
-NEL MANUALE DELL'ADMIN METTERE 
-
-- INTRODUZIONE
-- GAMEMASTERING
-- GESTIONE NEMICI
-- GLI UPGRADE
-- AMBIENTAZIONE SHOGAI
-- DILEMMA BOOLEANO (UNA MINI CAMPAGNA)
+### -- WIP

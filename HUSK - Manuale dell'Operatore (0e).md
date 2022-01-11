@@ -171,8 +171,8 @@ Le Larve sono grossi insetti umanoidi con la testa che assomiglia a quella di un
 
 | Abilità            | Effetto                                                      |
 | ------------------ | ------------------------------------------------------------ |
-| *Saliva Corrosiva* | Neutralizza lo Scudo di un nemico in Mischia per suoi prossimi due Loop |
-| *Succhiavita* [⟲]  | Se stai per infliggere danno ad una creatura organica con una protolama o con la proboscide, curati dello stesso ammontare di Salute entro la Soglia |
+| *Saliva Corrosiva* | Riduci a 0 lo Scudo di un bersaglio in Mischia fino all'inizio del suo Loop |
+| *Succhiavita* [⟲]  | Se stai per infliggere danno ad un bersaglio organico tramite protoarma o proboscide, curati dello stesso ammontare di Salute entro la Soglia |
 
 
 
@@ -341,7 +341,7 @@ Gli Sheller sono gli unici in grado di accedere alla SHELL, il terminale metafis
 | Abilità        | Effetto                                                      |
 | -------------- | ------------------------------------------------------------ |
 | ***SHELL***    | Esegui un Comando                                            |
-| *Drone*        | Dai un'istruzione al tuo drone                               |
+| *Metadata*     | Chiedi all'Admin il valore di un Parametro Base o Avanzato di un bersaglio a Lungo Raggio |
 | Firewall       | Crea una Copertura nella posizione in cui ti trovi           |
 | *Backdoor* [⟲] | Se stai per essere attaccato, spostati di una distanza in direzione opposta rispetto al nemico attaccante |
 
@@ -349,9 +349,9 @@ Gli Sheller sono gli unici in grado di accedere alla SHELL, il terminale metafis
 
 | Tecnica | Effetto                                                      |
 | ------- | ------------------------------------------------------------ |
-| GREP    | riveli Parametri, Salute, Difesa, Scudo e Pericolosità di un nemico che puoi vedere. |
-| CHMOD   | lancia 1d6; se superi l'Ingegno nemico, lo controlli fino al tuo prossimo turno (il tuo turno finisce immediatamente ed inizia quello del nemico controllato). |
-| ECHO    | invia un messaggio ad un qualsiasi sistema o essere vivente. |
+|         |                                                              |
+|         |                                                              |
+|         |                                                              |
 | SLEEP   | manda in stasi un nemico per 1 turno (non può eseguire azioni nè muoversi). |
 | SUDO    | resetta un Comando (puoi usarlo nuovamente senza causare una Crisi). |
 
@@ -404,7 +404,7 @@ I vettori sono fucili di diverso calibro e dimensione alimentati da energia para
 #### Proprietà dei Vettori
 
 - **Laser**: in caso di Colpo Critico, ignora lo Scudo
-- **Mira**: richiede 3 Azioni
+- **Mira**: richiede 2 Azioni
 - **Blast**: infligge 1 danno addizionale a tutti i personaggi sulla stessa distanza del bersaglio
 - **Flare**: se infliggi un Colpo Critico con quest'arma, il bersaglio ha la portata ridotta a Mischia durante il suo prossimo Loop
 - **Autoshoot**: in distanza di Mischia, l'arma colpisce automaticamente
@@ -493,48 +493,54 @@ La Nucleoborsa è lo zaino dato in dotazione a tutti gli Operatori. La Nucleobor
 
 Gli strumenti sono oggetti con cui svolgere azioni speciali. Alcuni strumenti, come i *grimaldelli*, sono usa e getta, mentre altri, come l'*estrattore genetico* possono essere utilizzati un numero indefinito di volte.
 
-| Nome           |    Tipo    | Volume | Costo  | Utilizzo                   |
-| -------------- | :--------: | :----: | :----: | -------------------------- |
-| Antidolorifico |  singolo   |   2V   | 100 G  | cura 1d6                   |
-| Medikit        |            |        | 200 G  | cura 1d6 oltre soglia      |
-| Psicofarmaci   |            |        |        | toglie o aggiunge 1 stress |
-|                |            |        |        |                            |
-|                |            |        |        |                            |
-|                |            |        |        |                            |
-|                |            |        |        |                            |
-|                |            |        |        |                            |
-| Filo shiga     | permanente |   1V   | 22 gon | filo indistruttibile       |
-| Grimaldello    |  singolo   |   1V   | 2 gon  | strumento da scasso        |
+| Nome             |  Utilizzo  | Volume |  Costo   | Effetto                                                |
+| ---------------- | :--------: | :----: | :------: | ------------------------------------------------------ |
+| Antidolorifico   |  singolo   |   1V   |  100 G   | Cura 1d6                                               |
+| Medikit          |  singolo   |   1V   |  200 G   | Cura 1d6 oltre la Soglia                               |
+| Psicofarmaci     |  singolo   |   1V   |  300 G   | Rimuove 1 punto Stress                                 |
+| Sincrodroga      |  singolo   |   1V   |   50 G   | Lancia 1d10. Pari cura, dispari danneggia, 1 dà stress |
+| Capsula BLESS    |  singolo   |   1V   |  1000 V  | Cura fino al limite della Soglia                       |
+| Segnale Mercapod |  singolo   |   2V   |   50 G   | Richiama il Mercapod                                   |
+| Flare Estrazione |  singolo   |   2V   |  175 G   | Richiama un Esapod                                     |
+| Grimaldello      |  singolo   |   2V   |  250 G   | Sblocca una serratura meccanica                        |
+| Rootkit          |  singolo   |   2V   |  350 G   | Sblocca un sistema informatico                         |
+| Plastico EXR     |  singolo   |   3V   |  600 G   | Esplosivo controllato da remoto                        |
+| Triobussola      | permanente |   2V   | 1 000 G  | Bussola non magnetica                                  |
+| Filo shiga       | permanente |   1V   |  300 G   | Filo indistruttibile                                   |
+| Carrybox         | permanente |   -    | 3 000 G  | Contenitore autotrasportante da 15 V                   |
+| WAVE             | permanente |   -    | 12 000 G | Moto da deserto                                        |
+| Tenda NEMERF     | permanente |   5V   | 8 000 G  | Tenda da deserto                                       |
+| Olo-lente        | permanente |   3V   | 2 000 G  | Permette di guardare lontano                           |
 
 ### Servizi
 
-| Nome                       |        Descrizione        |          Costo           |
-| -------------------------- | :-----------------------: | :----------------------: |
-| Rifornimento Nucleoborsa   | Rifornimento della Linfa  |           50 G           |
-| Retrace genetico           | Retrain Abilità di Specie |          500 G           |
-| Retrace mnemonico          | Retrain Abilità di Classe |         1 000 G          |
-| Sblocco paraGEN 2          |      Primo level up       |         5 000 G          |
-| Sblocco paraGEN 3          |     Secondo level up      |         10 000 G         |
-| Sblocco paraGEN 4          |      Terzo level up       |         25 000 G         |
-| Sblocco paraGEN 5          |      Quarto level up      |         50 000 G         |
-| Starpod                    |          Viaggio          |         1 000 G          |
-| Mannah V2                  |    Mercante itinerante    | Costo Merci raddioppiato |
-| Ascensore                  |      Rientro Sho Gai      |          500 G           |
-| Estrazione entro 500 Seqel |      Rientro Sho Gai      |         2 000 G          |
-| Estrazione oltre 500 Seqel |      Rientro Sho Gai      |         6 000 G          |
-| Abbandonare il Pianeta     |             -             |        100 000 G         |
+| Nome                       |         Descrizione         |          Costo           |
+| -------------------------- | :-------------------------: | :----------------------: |
+| Rifornimento Nucleoborsa   |  Rifornimento della Linfa   |           50 G           |
+| Retrace genetico           |  Retrain Abilità di Specie  |          500 G           |
+| Retrace mnemonico          |  Retrain Abilità di Classe  |         1 000 G          |
+| Sblocco paraGEN 2          |       Primo level up        |         5 000 G          |
+| Sblocco paraGEN 3          |      Secondo level up       |         10 000 G         |
+| Sblocco paraGEN 4          |       Terzo level up        |         25 000 G         |
+| Sblocco paraGEN 5          |       Quarto level up       |         50 000 G         |
+| Starpod                    |           Viaggio           |         1 000 G          |
+| Mercapod                   |     Mercante itinerante     | Costo Merci raddioppiato |
+| Ascensore                  |       Rientro Sho Gai       |          500 G           |
+| Estrazione entro 500 Seqel |       Rientro Sho Gai       |         2 000 G          |
+| Estrazione oltre 500 Seqel |       Rientro Sho Gai       |         6 000 G          |
+| Abbandonare il Pianeta     | *"Addio, fottuto Pianeta!"* |        100 000 G         |
 
 
 
 ## Combattimento
 
-Il Combattimento è il fulcro di Husk RPG. La fase di Combattimento inzia ogni volta che il gruppo di giocatori incontra una o più creature ostili.
+Il Combattimento è il fulcro di Husk RPG. La fase di Combattimento inzia ogni volta che gli Operatori incontrano una o più entità ostili.
 
 Il combattimento in Husk è frenetico, veloce e spesso letale. Non sempre affrontare dei nemici a testa bassa è la soluzione migliore. Ma quando evitare lo scontro è impossibile, le regole da seguire sono riportate nei capitoli successivi.
 
 
 
-### Stabilire lo STACK
+### L'Ordine dei LOOP
 
 All'inizio del Combattimento, tutti i personaggi *consci* (ossia che sono consapevoli dell'inizio dello scontro) entrano nello STACK, che rappresenta l'ordine in cui Operatori e nemici eseguono il proprio turno. 
 
@@ -544,7 +550,7 @@ Dopo che lo STACK è stato stabilito, si procede con i turni di ogni singolo per
 
 
 
-### Turno
+### LOOP
 
 Durante il proprio turno si ha a disposizione 1 Movimento e 2 Azioni. Qualora si sia feriti, si ha a disposizione 1 Movimento ed 1 Azione. 
 

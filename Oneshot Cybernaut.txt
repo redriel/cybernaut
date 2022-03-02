@@ -1,0 +1,46 @@
+Oneshot Cybernaut
+
+Kagi è una vecchia conoscenza degli Operatori, gestisce un locale chiamato Planetarium, dove trafficanti, criminali e cacciatori di hardware spesso si riuniscono. Kagi ha bisogno di aiuto: aveva fornito informazioni per un affare importante ad una gang, la Elex, i quali hanno condotto il business senza però consegnargli la merce pattuita, un datadisk di un certo valore.
+
+Kagi si offre di pagare uno sblocco ParaGEN a tutti i partecipanti e ben 10k gon a testa.
+
+Kagi rivuole il datadisk e chiede agli Operatori di recuperarlo: la Elex lavora in un edificio vicino all'officina cibernetica Joron. Per entrare nell'edificio della Elex ci sono due strade: l'ingresso sul retro, protetto da un terminale Kalix, oppure direttamente dall'ascensore dell'officina.
+
+a. Superare il terminale Kalix richiede un rootkit o un 4 di hacking. Alternativamente si può usare un plastico EXF o 5 di manomissione.
+
+b. Passare dall'officina richiede un pagamento di 100 gon a Borshu, una Larva che fa il guardiano notturno, che comunica che il codice di sblocco è 7741. Dentro l'officina, prima di prendere l'ascensore, si può aprire una cassaforte per trovare dentro un upgrade, nanoscudo, che offre +1 di scudo.
+
+Arrivati dentro all'edificio, tra una grande statua Byoxa, incensieri di sincrodroga e alcol, 3 membri della Elex ingaggiano in combattimento. Uccisi, Si può trovare un Vettore Jundic non registrato, il datadisk e 1200 gon e 3v di ferraglia.
+
+Riportato il datadisk a Kagi, costui informerà che bisogna prendere la metro e arrivare nel laboratorio del centro di Sho Gai, dove un Sync sua vecchia conoscenza, Neido, possiede uno strumento per decifrarlo.
+
+Arrivati da Neido, il Sync accetterà di decifrare il datadisk dietro pagamento di 1000 gon. Se si rifiuta il pagamento, Neido consegnerà il codice di sblocco che servirà più avanti errato.
+
+Sulla metro del ritorno si viene attaccati da altri membri della Elex. Uccisi si ottengono 2000 gon, 1 upgrade (neurotech: 1 volta per combattimento: rimuovi 1 stress come azione), 1 medikit e 2 pacchi di sincrodroga e 2v i ferraglia.
+
+Riportato il datadisk decifrato da Kagi, questi rivelerà che il datadisk serve come pass per sbloccare il portellone di uno strano mezzo di trasporto che si trova nel polo artico del Pianeta, il quale, secondo i metadati del datadisk, contiene da qualche parte dati di esperimenti per sviluppare poteri parapsichici.
+
+Organizzato il pod e ricevuto un segnale mercapod e un flare di estrazione, si parte per l'ultima parte della one shot. Gli Operatori dopo aver viaggiato per qualche ora tra i ghiacciai, trovano un grosso sottomarino. Usato il datadisk per aprire il portellone sulla sommità.
+
+Facendosi strada nel gigantesco sottomarino, bisognerà:
+- utilizzare robotica per spostare una piattaforma per consentire il passaggio (1v di ferraglia)
+- utilizzare atletica per superare una sezione schiacciata e premere un pulsante per un passaggio laterale
+- arrivare alla stanza idroponica contenente delle vasche con dei feti, cordoni ombellicali distrutti
+
+QUi si combattono 4 xenocreature dai poteri psichici. Uccise queste si arriva ad una stanza con un terminale. Se Neido è stato pagato, la porta si apre, ma si blocca a metà. Due grossi robot di sicurezza si attivano. (Lo stesso succede se non è stato pagato). SI possono sconfiggere oppure utilizzando di nuovo il terminale, con un 6 se ne disattiva uno.
+
+I robot lasciano ferraglia per 5v a testa.
+
+Ammazzati, si trova una capsula e un plico di floppy disk con ancora un embrione intatto. Fine.
+
+Elex A: (14 vita, 7)
+ing 2, dif 7, scud 0, reatt 4, 1d8 M, 1d4 LR, ab: stun se crit
+
+Elex B (10 vita, 4)
+ing 2, dif 4, scud 2, reatt 2, 1d6 M, 1d6 CR aoe, ab: scudo +2
+
+Xenocreatura: (12 vita, 6)
+ing 5, dif 6, scud 1, reatt 4, 1d8 M, 1d4 LR, ab: +1stress se > ing.
+
+Robot sentinella (20 vita, 10)
+ing 4, dif 6, scud 1, reatt 4, 1d8 M, 1d4 LR, ab: laser 1d8 che colpisce 2 volte/bersagli

@@ -1,0 +1,70 @@
+# Modifiche alle statistiche
+Le statistiche vanno da 1 a 10. Il bonus di ogni statistica è determinato dividendo per 2 il valore e arrotondando per difetto. Le statistiche si generano lanciando 3d4 e prendendo i 2 più alti.
+
+# Modifiche agli attacchi
+Ogni operatore ha a disposizione una riserva di Dadi Attacco. L'operatore può decidere, per ogni attacco, quanti DA utilizzare. Se ne vengono impiegati più di 1, si sceglie il lancio col risultato migliore per determinare l'esito dell'attacco.
+
+# Modifiche ai danni
+Le armi a distanza aggiungono ai danni il bonus destrezza.
+Le armi da mischia aggiungono ai danni il bonus vigore.
+
+# Modifiche allo scudo
+Lo scudo è un valore numerico che riduce i danni a 0 fintanto che resiste. Si ricarica ad ogni inizio combattimento usando 1 unità di risorsa.
+
+# Modifiche all'armatura
+L'armatura è un valore flat che varia da 2 a 7. Ogni armatura ha un max di destrezza da aggiungere, da 1 a 5. La difesa massima raggiungibile è 8 (questo limite può essere superato tramite oggetti o abilità). Ogni armatura concede un diverso mix di max dex, difesa, scudo e slot upgrade.
+
+# Modifiche all'equipaggiamento da battaglia
+Ogni operatore ha uno slot mano destra e uno slot mano sinistra.
+I vettori di grosso calibro occupano entrambe le mani.
+Le armi di grandi dimensioni occupano entrambe le mani.
+Armi medie e vettori medi possono essere operati con una sola mano.
+Per attaccare con un'arma bisogna averla in mano.
+Cambiare arma con una nella nucleoborsa richiede 1 azione (Riconfigurazione).
+
+# Attaccare con 2 pistole / 2 armi
+Le armi in questione devono avere il tag "dual". 
+Bisogna usare esattamente 1 DA per arma, ma l'attacco conta come 1 unica azione.
+Una delle due armi non riceve il bonus ai danni.
+
+# Modifiche alle abilità
+Al livello 1, ogni operatore sceglie dalla Tabella delle Abilità 3 abilità di cui soddisfa i prerequisiti. Ad ogni nuovo livello può aggiungere 1 nuova abilità, comprese quelle di Specialità.
+In un singolo combattimento si possono utilizzare fino a 3+bonus abilità. Superato questo limite, ogni utilizzo di abilità causa una crisi.
+
+# Ferite
+Come la mente con lo stress, anche il corpo ha dei limiti. Quando si arriva a Ferito 3, il personaggio perde i sensi. Al suo prossimo turno, lancia 4d10. Se il risultato è inferiore a 20, muore. Altrimenti, riprende i sensi. 
+Eseguire una azione con 3 ferite che non sia curarsi comporta +1 di stress. 
+Ogni danno subito fa svenire.
+
+# Iniziativa
+I nemici hanno iniziativa flat (es. 5). Ogni operatore lancia 1d10 e aggiunge il bonus lucidità. Quelli che superano la CD (anche pareggiandola) vanno sopra ai nemici.
+
+# Stress e Ferite nemiche
+Anche i nemici subiscono stress e ferite esattamente come gli operatori
+
+# Stat block
+Un nuovo stat block per un nemico.
+
+Nome: Tigre Laza
+Pericolosità: 1
+
+Vigore: 	6	+3
+Destrezza: 	8 	+4
+Lucidità: 	2 	+1
+Intelletto: 2 	+1
+
+Sensi: 6
+Iniziativa: 6
+
+Salute: 12
+Difesa: 6
+Scudo: 0
+
+Attacchi:
+2 dadi attacco
+morso, mischia (1d6+3)
+
+Abilità:
+3 utilizzi totali
+Zampata: attacca con entrambe le zampe, mischia (1d4+3, 1d4).
+Scatto Laza R: se viene mancata in combattimento melee, usa 1 attacco.
